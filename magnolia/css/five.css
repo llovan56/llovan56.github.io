@@ -1,0 +1,115 @@
+body{
+  background-color:#fdf6e1;
+  margin:0;
+  padding:0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row{
+  margin:0;
+  padding:0;
+}
+
+img{
+  margin-left:auto;
+  margin-right:auto;
+  align-items: center;
+  padding:0;
+}
+
+/***********
+HEADER
+***********/
+
+div.header{
+  padding:15px;
+}
+
+div.link{
+  margin-right:0;
+  text-align:right;
+}
+
+p.links{
+  margin-right:0;
+  text-align:right;
+  color:black;
+}
+
+/***********
+FIVE
+***********/
+
+div.container{
+  background-color:#d3f8ed;
+  margin:20px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px 20px 50px 20px;
+  border-color:#cca334;
+  border-width:thick;
+}
+
+div.intro-container{
+  background-color:transparent;
+  height:auto;
+  padding:15px;
+  margin:10px;
+}
+
+div.intro{
+  padding:0;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:transparent;
+  max-width: 1000px;
+  border-width:thick;
+  border-color:#AF8C37;
+}
+
+.logo{
+  margin-left:auto;
+  margin-right:auto;
+  max-width:700px;
+}
+
+div.menu{
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+p,h1,h2{
+  vertical-align: middle;
+  text-align:center;
+  color:#444;
+}
+
+h2.item{
+  color:#647771;
+}
+
+h1.script{
+  font-family: 'Sacramento', cursive;
+  color:#cca334;
+  font-size:5em;
+}
+
+/***********
+FOOTER
+***********/
+
+div.footer{
+  background-color:#E5E7EC;
+  height:150px;
+}
+
+/***********
+Media Queries
+***********/
+
+@media (max-width:750px){
+  .top-balloon,.big-balloon{
+    position:none;
+  }
+}

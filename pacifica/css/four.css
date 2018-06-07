@@ -1,0 +1,150 @@
+body{
+  background-color:white;
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+  margin:0;
+  padding:0;
+}
+
+img{
+  margin-left:auto;
+  margin-right:auto;
+  align-items: center;
+  padding:0;
+}
+
+/***********
+HEADER
+***********/
+
+div.header{
+  padding:15px;
+}
+
+div.link{
+  margin-right:0;
+  text-align:right;
+}
+
+p.links{
+  margin-right:0;
+  text-align:right;
+  color:black;
+}
+
+/***********
+FOUR
+***********/
+
+div.intro-container{
+  background-color:transparent;
+  height:auto;
+  padding:15px;
+  margin:10px;
+}
+
+div.intro{
+  padding:0;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:transparent;
+  max-width: auto;
+  padding-top:30px;
+  padding-bottom:70px;
+  border-width:thin;
+  border-color:#AF8C37;
+  border-style: solid;
+}
+
+.logo{
+  margin-left:auto;
+  margin-right:auto;
+  max-width:550px;
+  border-color:#AF8C37;
+  border-width:thin;
+  border-style:none;
+}
+
+p,h1,h2{
+  vertical-align: middle;
+  text-align:center;
+  color:#fff;
+}
+
+div.product{
+  max-width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+}
+
+img.product-img{
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:black;
+}
+
+h1.product-name1{
+  margin-left:auto;
+  margin-right:auto;
+  top:50px;
+}
+
+.all-products{
+  max-width:1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-section1{
+  background-color:#DAD552;
+  height:auto;
+}
+
+.product-section2{
+  background-color:#311D40;
+  height:auto;
+}
+
+.product-section3{
+  background-color:#FCA202;
+  height:auto;
+}
+
+.product-section4{
+  background-color:#F9373E;
+  height:auto;
+}
+
+.product-section5{
+  background-color:#9E3328;
+  height:auto;
+}
+
+.product-section6{
+  background-color:#93D2D7;
+  height:auto;
+}
+/***********
+FOOTER
+***********/
+
+div.footer{
+  background-color:#E5E7EC;
+  height:150px;
+}
+
+/***********
+Media Queries
+***********/
+
+@media (max-width:750px){
+  .top-balloon,.big-balloon{
+    position:none;
+  }
+}

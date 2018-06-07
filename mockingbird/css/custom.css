@@ -1,0 +1,283 @@
+body{
+  background-color:white;
+  margin:0;
+  padding:0;
+  font-family: 'Amiko', sans-serif;
+}
+
+.row{
+  margin:0;
+  padding:0;
+}
+
+img{
+  margin-left:auto;
+  margin-right:auto;
+  align-items: center;
+  padding:0;
+}
+
+/***********
+HEADER
+***********/
+
+div.header{
+  padding:15px;
+}
+
+div.link{
+  margin-right:0;
+  text-align:right;
+}
+
+p.links{
+  margin-right:0;
+  text-align:right;
+  color:black;
+}
+
+/***********
+ONE
+***********/
+
+div.intro-container{
+  background-color:transparent;
+  background-size:cover;
+  background-image:url(../img/bg.jpg);
+  background-repeat:no-repeat;
+  height:60vh;
+  padding:15px;
+  margin:10px;
+
+}
+
+div.intro{
+  position:relative;
+  top:130px;
+  max-width:450px;
+  padding:35px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:transparent;
+}
+
+div.project-section{
+  height:auto;
+  padding:15px;
+  margin:10px;
+}
+
+p,h1,h2{
+  text-align:center;
+}
+
+.col-lg-6,.col-lg-12{
+  padding:0;
+  margin:0;
+}
+
+.left{
+  margin-top:5px;
+  padding-right:3px;
+  background-color:#ccc;
+  height:400px;
+  background-size:cover;
+  background-image:url(../img/project1.jpg);
+  background-repeat:no-repeat;
+}
+
+.right{
+  margin-top:5px;
+  padding-left:3px;
+  background-color:#222;
+  height:400px;
+  background-size:cover;
+  background-image:url(../img/project2.jpg);
+  background-repeat:no-repeat;
+}
+
+.left2{
+  margin-top:5px;
+  padding-right:3px;
+  background-color:#ccc;
+  height:400px;
+  background-size:cover;
+  background-image:url(../img/project3.jpg);
+  background-repeat:no-repeat;
+}
+
+.right2{
+  margin-top:5px;
+  padding-left:3px;
+  background-color:#222;
+  height:400px;
+  background-size:cover;
+  background-image:url(../img/project4.jpg);
+  background-repeat:no-repeat;
+}
+
+.center{
+  margin-top:5px;
+  background-color:transparent;
+  height:auto;
+  padding:3px;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div.box{
+  height:250px;
+  margin:0px;
+}
+
+div.content{
+  background-color:#222;
+  padding:0px;
+  height:250px;
+}
+
+footer{
+  height:75px;
+}
+
+div.body-container{
+  background-color:transparent;
+  margin-left:auto;
+  margin-right:auto;
+  padding:15px;
+}
+
+div.body{
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#ccc;
+}
+
+div.item{
+  padding:10px;
+  background-color:transparent;
+}
+
+h1.intro-header{
+  text-transform:uppercase;
+  color:#222;
+  font-weight:400;
+  text-align:center;
+}
+
+h3{
+  color:white;
+  text-transform:uppercase;
+  text-align:center;
+  text-decoration: underline;
+  -moz-text-decoration-color: #CCB392; /* Code for Firefox */
+  text-decoration-color: #CCB392;
+}
+
+
+p.intro-text{
+  color:black;
+}
+
+/* quote */
+
+div.quote-box{
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:25px;
+}
+
+p.quote{
+  text-transform:uppercase;
+  color:white;
+  text-align:center;
+}
+
+
+
+/***********
+ABOUT
+***********/
+
+div.about-container{
+  padding:15px;
+  height:auto;
+}
+
+div.about{
+  position:relative;
+  top:50px;
+  max-width:600px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px 20px 20px 20px;
+  text-align:center;
+  background-color:transparent;
+}
+
+div.about-body{
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+p.about{
+  text-align:center;
+}
+
+h1.about-header{
+  text-transform:uppercase;
+  color:#CCB392;
+  font-weight:400;
+}
+
+/***********
+PROJECT
+***********/
+
+h3.projects-header{
+  color:black;
+  text-transform:uppercase;
+  text-align:center;
+  text-decoration: underline;
+  -moz-text-decoration-color: #CCB392; /* Code for Firefox */
+  text-decoration-color: #CCB392;
+}
+
+/***********
+ITEM
+***********/
+
+div.item-intro{
+  padding:40px 20px 20px 20px;
+  background-color:#ccc;
+}
+
+div.top{
+  padding-top:0px;
+  background-color:transparent;
+}
+
+div.item-header{
+  background-image:url(../img/bg.jpg);
+  height:400px;
+}
+
+h1.item-name{
+  top:40%;
+  position:relative;
+  text-align:center;
+}
+
+/***********
+FOOTER
+***********/
+
+div.footer{
+  background-color:#E5E7EC;
+  height:150px;
+}

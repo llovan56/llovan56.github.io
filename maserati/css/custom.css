@@ -1,0 +1,110 @@
+/*Custom Styles*/
+
+body {
+  background-color: #21316f;
+  color: #262626;
+  font-family: 'avenir next', avenir, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+ol, ul {
+  border-left: lightgray solid;
+  border-width: 0.1em;
+  padding: 0 0 0 3em;
+  margin-bottom: 1em;
+}
+
+code {
+  border-bottom: dotted 1px;
+  color: green;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+}
+
+.baskerville {
+  font-family: 'baskerville', serif;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.blue {
+  color: #21316f;
+}
+
+.bg-blue {
+  background-color: #21316f;
+}
+
+.car {
+  height: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  position: relative;
+  z-index: 1000;
+}
+
+.car-image {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.diagonal {
+  background-color: white;
+  border-bottom: 1px solid #21316f;
+  clear: both;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  -webkit-transform:
+      translateY(-50px)
+      translateX(0px)
+      rotate(-2deg);
+}
+
+.info {
+  background-color: #21316f;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  position: relative;
+  z-index: 2000;
+}
+
+.info2 {
+  clear: both;
+  max-width: auto;
+  position: relative;
+  top: 50px;
+  z-index: 2000;
+}
+
+.mw-1000 {
+  max-width: 1000px;
+}
+
+footer {
+  clear: both;
+  height: auto;
+}
+
+@media screen and (max-width: 48em) {
+  .car{
+    height:auto;
+  }
+
+  .diagonal{
+    display:none;
+  }
+}

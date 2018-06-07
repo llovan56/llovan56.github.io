@@ -1,0 +1,147 @@
+body{
+  background-color:#fff;
+  margin:0;
+  padding:0;
+  font-family: 'Abhaya Libre', serif;
+}
+
+.row{
+  margin:0;
+  padding:0;
+}
+
+img{
+  margin-left:auto;
+  margin-right:auto;
+  align-items: center;
+  padding:0;
+}
+
+/***********
+HEADER
+***********/
+
+div.header{
+  padding:15px;
+}
+
+div.link{
+  margin-right:0;
+  text-align:right;
+}
+
+p.links{
+  margin-right:0;
+  text-align:right;
+  color:black;
+}
+
+/***********
+SIX
+***********/
+
+div.intro-container{
+  background-color:transparent;
+  height:100vh;
+  background-image:url(../img/tree-bg.jpg);
+  background-size: 100% auto;
+  background-repeat:no-repeat;
+  padding:15px;
+  margin:0;
+}
+
+div.intro{
+  padding:0;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:transparent;
+  height:100vh;
+}
+
+.logo{
+  margin-left:auto;
+  margin-right:auto;
+  top:30%;
+  position:relative;
+  left:10%;
+}
+
+div.plot{
+  background-color:#000;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+div.characters{
+  padding-top:40px;
+  background-color:#000;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+p{
+  color:#eee;
+  font-size:1em;
+}
+
+div.story{
+  padding:20px;
+}
+
+div.plot-container{
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div.characters{
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom:90px;
+  background-color:#fff;
+}
+
+h1.header{
+  color:#fff;
+  font-size:5em;
+}
+
+h1.header2{
+  color:#000;
+  font-size:5em;
+}
+
+p.character-description{
+  color:#000;
+}
+
+/***********
+FOOTER
+***********/
+
+div.footer{
+  background-color:#E5E7EC;
+  height:150px;
+}
+
+/***********
+Media Queries
+***********/
+
+@media (max-width:750px){
+  div.intro-container{
+    background-image:none;
+    height:auto;
+  }
+
+  div.intro{
+    height:auto;
+  }
+
+  div.logo{
+    left:auto;
+  }
+}
