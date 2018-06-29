@@ -1,0 +1,101 @@
+/* TEA SELECTION INTRO SECTION */
+
+
+
+/* Typography */
+
+a.tea-type-link {
+    font-size: 1.25em;
+    font-style: italic;
+    padding-right: 200px;
+    text-transform: capitalize;
+}
+
+/* tea menu */
+.tea-types {
+    background-size: cover;
+    width: 35%;
+    height: auto;
+    padding-top: 5%;
+}
+
+.tea-type-inner-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+
+    height: auto;
+    margin: auto;
+    padding: .75em;
+    padding-left: 2.75em;
+}
+
+
+/* shop section */
+
+.shop-intro-section {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.shop-img {
+    background-image: url(../images/tea-cup.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.green-serif {
+    /* background-color: red; */
+    color: #b9d324;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: .1em;
+}
+
+.shop-general-text {
+    /* background-color: blue; */
+    width: 80%;
+    float: right;
+}
+
+.shop-intro-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: auto;
+    padding: 3em;
+    width: 100%;
+}
+
+.shop-intro-inner-item {
+    height: auto;
+    margin: auto;
+    width: 100%;
+}
+
+/* FEATURED ITEM */
+
+.item-padding {
+    background-color: #eee;
+    padding: .5em;
+    height: 250px;
+}
+
+/* FOOTER */
+
+.footer-content {
+    margin: auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+p.footer-text {
+    font-size: .75em;
+}
