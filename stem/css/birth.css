@@ -1,116 +1,17 @@
 * {
-    text-align: center;
     font-family: 'Playfair Display', serif;
-}
-
-/* UTILITIES */
-
-h1, h2, h3, h4 ,h5{ 
-    color: #787272;
-    /* font-family: 'Abel', sans-serif; */
-    letter-spacing: .12em;
-    /* text-align: left; */
-}
-
-p.left {
-    text-align: left;
-}
-
-h1 {
-    font-size: 4em;
-}
-
-.events {
     text-align: center;
 }
 
-p {
-    color: #898e7c;
-    font-family: 'Playfair Display', serif;
-}
-
-.sans-serif {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.serif {
-    font-family: 'Playfair Display', serif;
-}
-
-img {
-    height: auto;
-    width: 50%;
-}
-
-/* LINKS */
-a {
-    color: #56636e;
-    font-family: 'Playfair Display', serif;
-    padding: .75em;
-    text-transform: lowercase;
-}
-
-a:hover {
-    color: #ff5912;
-    text-decoration: underline;
-}
-
-img {
-    margin: 0;
-    max-width: 100%;
-    padding: 0;
-}
-
-hr {
-    width: 100%;
-}
-
-hr.thick-border {
-    border-bottom: rgb(255,255,255) solid 3px;
-}
-
-hr.left {
-    margin-left: 0;
-    max-width: 47%;
-}
-
-hr.right {
-    margin-right: 0;
-    max-width: 82%;
-}
-
-footer {
-    background-color: #e5e5e5;
-    margin: 0;
-    padding: 0;
-}
-
-/* HEADER */
-
-#header {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    background-color: transparent;
-    padding: 2em;
-    width: 100%;
-}
-
-.links {
-    display: inline-flex;
-}
-
-.logo {
-    height: 36px;
-    width: 175px;
+body {
+    background-color: #000;
 }
 
 /* INTRO PAGE */
 
-#main {
-    background-color: rgb(255, 255, 255);
-    background-image: url(../images/clouds-bw.jpg);
+#main-part-one {
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(../images/taidam20.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -123,8 +24,8 @@ footer {
     flex-direction: column;
     justify-content: center;
 
-    width: 100%;
     height: auto;
+    width: 100%;
 }
 
 .intro-section {
@@ -158,7 +59,7 @@ footer {
     flex-direction: column;
     justify-content: center;
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     height: 100vh;
     margin: auto;
 }
@@ -167,22 +68,11 @@ footer {
     width: 85%;
 }
 
-.inner-story-text {
-    height: auto;
-}
-
-.story-headline {
-    /* background-color: rgb(170, 170, 170); */
-    height: auto;
-    margin: auto;
-    padding: .75em;
-    width: 100%;
-}
-
 .story-text {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
 
     /* background-color: rgb(170, 170, 170); */
     height: auto;
@@ -191,8 +81,14 @@ footer {
     width: 100%;
 }
 
+.part-one-image {
+    /* background-color: red; */
+    width: 70%;
+}
+
 .inner-story-text {
-    width: 45%;
+    height: auto;
+    /* width: 45%; */
 }
 
 .info {
@@ -223,24 +119,6 @@ footer {
 
 h2.item-headline {
     font-style: italic;
-}
-
-.one {
-    background-color: red;
-    background-image: url(../images/taidam20.jpg);
-    background-size: cover;
-}
-
-.two {
-    background-color: black;
-}
-
-.three {
-    background-color: blue;
-}
-
-.four {
-    background-color: teal;
 }
 
 
