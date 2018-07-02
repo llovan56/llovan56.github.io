@@ -12,16 +12,34 @@ h1, h2, h3, h4 ,h5{
     /* text-align: left; */
 }
 
-p.left {
+.left {
     text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    .caps {
+        text-transform: lowercase;
+    }
 }
 
 h1 {
     font-size: 4em;
-}
-
-.events {
-    text-align: center;
 }
 
 p {
@@ -37,9 +55,12 @@ p {
     font-family: 'Playfair Display', serif;
 }
 
-img {
-    height: auto;
-    width: 50%;
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
 }
 
 /* LINKS */

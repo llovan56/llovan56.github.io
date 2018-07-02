@@ -3,8 +3,15 @@
     text-align: center;
 }
 
+/* MODIFIED UTILIES */
+
 body {
     background-color: #000;
+}
+
+.left {
+    color: white;
+    letter-spacing: auto;
 }
 
 /* INTRO PAGE */
@@ -37,17 +44,23 @@ body {
 
     /* background-color: rgb(255, 255, 255); */
     height: 70vh;
-    width: 100%;
+    width: 80%;
 }
 
 .intro-item {
-    align-content: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
 
     height: auto;
+    padding: 5em;
     width: 100%;
+}
+
+h1.birth-headline {
+    align-self: flex-start;
+
+    color: #fff;
+    text-align: left;
 }
 
 /* STORY */
@@ -68,7 +81,7 @@ body {
     width: 85%;
 }
 
-.story-text {
+.story-content {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -81,63 +94,100 @@ body {
     width: 100%;
 }
 
+/* PART ONE */
+
 .part-one-image {
     /* background-color: red; */
     width: 70%;
 }
 
-.inner-story-text {
+.part-one-text-overlap {
+    align-self: flex-end;
+
+    display: block;
     height: auto;
+    left: -5%;
+    position: relative;
+    width: 50%;
     /* width: 45%; */
 }
 
-.info {
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+/* PART TWO */
 
-    /* background-color: #ccc; */
-    /* background-image: url(../images/grey-box.jpg); */
-    /* background-size: cover; */
-    height: 100vh;
-    margin: auto;
+.part-two-image {
+    /* background-color: red; */
+    height: auto;
+    width: 90%;
+}
+
+.part-two-text {
+    align-self: center;
+
+    display: block;
+    height: auto;
+    left: -8%;
+    position: relative;
+    width: 20%;
+    /* width: 45%; */
+}
+
+/* PART THREE */
+
+.part-three-image {
+    align-self: flex-end;
+    /* background-color: red; */
+    height: auto;
+    width: 90%;
+}
+
+.part-three-text {
+    align-self: center;
+
+    display: block;
+    height: auto;
+    /* left: -15%; */
+    position: relative;
+    right: -15%;
+    width: 30%;
+    /* width: 45%; */
+}
+
+/* PART FOUR */
+
+.part-four {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part-four-image-left {
+    align-self: flex-start;
+
+    background-color: red;
+}
+
+.part-four-image-right {
+    align-self: flex-end;
+
+    background-color: green;
+}
+
+/* PART FIVE */
+
+.part-five {
+    width: 70%;
+}
+
+/* PART SIX */
+
+.part-six {
+    /* background-color: red;
+    background-image: url(../images/taidam7.jpg);
+    background-size: cover; */
+    height: auto;
     width: 100%;
 }
 
-.item {
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    height: 80%;
-    width: 80%;
-}
-
-h2.item-headline {
-    font-style: italic;
-}
-
-
-/* FEATURED ITEM */
-
-.item-padding {
-    background-color: #eee;
-    padding: .5em;
-    height: 250px;
-}
-
-/* FOOTER */
-
-.footer-content {
-    margin: auto;
-    max-width: 1000px;
-    padding: 20px;
-}
-
-p.footer-text {
-    font-size: .75em;
+.part-six-image {
+    height: auto;
+    width: 100%;
 }
