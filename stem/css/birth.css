@@ -16,7 +16,7 @@ body {
 
 /* INTRO PAGE */
 
-#main-part-one {
+#main {
     /* background-color: rgb(255, 255, 255); */
     background-image: url(../images/taidam20.jpg);
     background-size: cover;
@@ -32,7 +32,7 @@ body {
     justify-content: center;
 
     height: auto;
-    width: 100%;
+    width: 100vw;
 }
 
 .intro-section {
@@ -78,6 +78,7 @@ h1.birth-headline {
     background-color: rgb(0, 0, 0);
     height: 100vh;
     margin: auto;
+    width: 100vw;
 }
 
 .inner-story {
@@ -176,13 +177,13 @@ h1.birth-headline {
 
 /* PART FIVE */
 
-.part-five {
+.part-five-container {
     width: 70%;
 }
 
 /* PART SIX */
 
-.part-six {
+.part-six-container {
     /* background-color: red;
     background-image: url(../images/taidam7.jpg);
     background-size: cover; */
@@ -193,4 +194,55 @@ h1.birth-headline {
 .part-six-image {
     height: auto;
     width: 100%;
+}
+
+
+/* For animation */
+
+.part-one {
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 6;
+    /* display: none; */
+}
+
+.part-two {
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 5;
+    /* display: none; */
+}
+
+.part-three {
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 4;
+    /* display: none; */
+}
+
+.part-four {
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 3;
+    /* display: none; */
+}
+
+.part-five {
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 2;
+    /* display: none; */
+}
+
+.part-six {
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 1;
+    /* display: none; */
+}
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+
+    overflow-x: auto;
+    overflow-y: none;
+}
+
+.card {
+    flex: 0 0 auto;
 }

@@ -63,15 +63,15 @@ p {
 
 /* LINKS */
 a {
-    color: #56636e;
+    color: #898e7c;
     font-family: 'Playfair Display', serif;
     padding: .75em;
     text-transform: lowercase;
 }
 
 a:hover {
-    color: #ff5912;
-    text-decoration: underline;
+    color: #898e7c;
+    text-decoration: none;
 }
 
 img {
