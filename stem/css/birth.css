@@ -199,40 +199,40 @@ h1.birth-headline {
 
 /* For animation */
 
-.part-one {
+#part-one {
     /* transform: translate3d(0px, 0px, 0px); */
     z-index: 6;
-    /* display: none; */
+    display: none;
 }
 
-.part-two {
+#part-two {
     /* transform: translate3d(0px, 0px, 0px); */
     z-index: 5;
-    /* display: none; */
+    display: none;
 }
 
-.part-three {
+#part-three {
     /* transform: translate3d(0px, 0px, 0px); */
     z-index: 4;
-    /* display: none; */
+    display: none;
 }
 
-.part-four {
+#part-four {
     /* transform: translate3d(0px, 0px, 0px); */
     z-index: 3;
-    /* display: none; */
+    display: none;
 }
 
-.part-five {
+#part-five {
     /* transform: translate3d(0px, 0px, 0px); */
     z-index: 2;
-    /* display: none; */
+    display: none;
 }
 
-.part-six {
+#part-six {
     /* transform: translate3d(0px, 0px, 0px); */
     z-index: 1;
-    /* display: none; */
+    display: none;
 }
 
 .scrolling-wrapper-flexbox {
@@ -245,4 +245,6 @@ h1.birth-headline {
 
 .card {
     flex: 0 0 auto;
+
+    /* position: fixed; */
 }
