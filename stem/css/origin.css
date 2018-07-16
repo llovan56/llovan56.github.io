@@ -1,0 +1,271 @@
+* {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+/* MODIFIED UTILIES */
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.left {
+    color: black;
+    letter-spacing: auto;
+}
+
+/* INTRO PAGE */
+
+#main {
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(../images/hawaii2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-image {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: auto;
+    width: 100vw;
+}
+
+.intro-section {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* background-color: rgb(255, 255, 255); */
+    height: 100vh;
+    width: 80%;
+}
+
+.intro-item {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: auto;
+    width: 100%;
+}
+
+h1.origin-headline {
+    align-self: flex-end;
+
+    color: #222;
+    text-align: right;
+}
+
+/* STORY */
+
+.story {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px #000;
+    border-top: 1px #000;
+    height: 100vh;
+    margin: auto;
+    width: 100vw;
+}
+
+.inner-story {
+    width: 85%;
+}
+
+.story-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    /* background-color: rgb(170, 170, 170); */
+    height: auto;
+    margin: auto;
+    padding: .75em;
+    width: 100%;
+}
+
+/* PART ONE */
+
+.img {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: none;
+    width: auto;
+}
+
+.part-one-image {
+    align-self: flex-start;
+
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    width: 50%;
+}
+
+.part-one-text-overlap {
+    align-self: flex-start;
+
+    display: block;
+    height: auto;
+    left: -5%;
+    position: relative;
+    top: 30%;
+    width: 50%;
+    /* width: 45%; */
+}
+
+/* PART TWO */
+
+.part-two-image {
+    /* background-color: red; */
+    height: auto;
+    width: 90%;
+}
+
+.part-two-text {
+    align-self: center;
+
+    display: block;
+    height: auto;
+    left: -8%;
+    position: relative;
+    width: 20%;
+    /* width: 45%; */
+}
+
+/* PART THREE */
+
+.part-three-image {
+    align-self: flex-end;
+    /* background-color: red; */
+    height: auto;
+    width: 90%;
+}
+
+.part-three-text {
+    align-self: center;
+
+    display: block;
+    height: auto;
+    /* left: -15%; */
+    position: relative;
+    right: -15%;
+    width: 30%;
+    /* width: 45%; */
+}
+
+/* PART FOUR */
+
+.part-four {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part-four-image-left {
+    align-self: flex-start;
+
+    background-color: red;
+}
+
+.part-four-image-right {
+    align-self: flex-end;
+
+    background-color: green;
+}
+
+/* PART FIVE */
+
+.part-five-container {
+    width: 70%;
+}
+
+/* PART SIX */
+
+.part-six-container {
+    /* background-color: red;
+    background-image: url(../images/taidam7.jpg);
+    background-size: cover; */
+    height: auto;
+    width: 100%;
+}
+
+.part-six-image {
+    height: auto;
+    width: 100%;
+}
+
+
+/* For animation */
+
+#part-one {
+    background-color: rgb(199, 199, 199);
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 6;
+    /* display: none; */
+}
+
+#part-two {
+    background-color: rgb(255, 255, 255);
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 5;
+    /* display: none; */
+}
+
+#part-three {
+    background-color: rgb(199, 199, 199);
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 4;
+    /* display: none; */
+}
+
+#part-four {
+    background-color: rgb(255, 255, 255);
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 3;
+    /* display: none; */
+}
+
+#part-five {
+    background-color: rgb(199, 199, 199);
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 2;
+    /* display: none; */
+}
+
+#part-six {
+    background-color: rgb(255, 255, 255);
+    /* transform: translate3d(0px, 0px, 0px); */
+    z-index: 1;
+    /* display: none; */
+}
+
+.scrolling-wrapper-flexbox {
+    /* display: flex;
+    flex-wrap: nowrap;
+
+    overflow-x: none;
+    overflow-y: auto; */
+}
+
+.card {
+    flex: 0 0 auto;
+
+    /* position: fixed; */
+}
