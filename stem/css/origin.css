@@ -18,7 +18,7 @@ body {
 
 #main {
     /* background-color: rgb(255, 255, 255); */
-    background-image: url(../images/hawaii2.jpg);
+    background-image: url(../images/hawaii19.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -98,37 +98,51 @@ h1.origin-headline {
     width: 100%;
 }
 
+.story-content-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    /* background-color: rgb(170, 170, 170); */
+    height: auto;
+    margin: auto;
+    padding: .75em;
+    width: 100%;
+}
+
 /* PART ONE */
 
 .img {
-    bottom: 0;
-    height: 100%;
-    left: 0;
+    /* bottom: 0; */
+    /* height: 100%; */
+    right: 0;
     overflow: none;
+    position: absolute;
     width: auto;
 }
 
 .part-one-image {
-    align-self: flex-start;
 
+    /* background-color:red; */
+    /* bottom: 0; */
     height: 100vh;
-    left: 0;
     overflow: hidden;
     position: relative;
-    bottom: 0;
-    width: 50%;
+    right: 0;
+    top: 33vh;
+    width: 45%;
 }
 
 .part-one-text-overlap {
-    align-self: flex-start;
 
+    /* background-color: green; */
     display: block;
-    height: auto;
-    left: -5%;
+    /* height: 20%; */
+    /* left: -5%; */
     position: relative;
-    top: 30%;
-    width: 50%;
-    /* width: 45%; */
+    top: 30vh;
+    width: 65%;
 }
 
 /* PART TWO */
@@ -215,7 +229,7 @@ h1.origin-headline {
 /* For animation */
 
 #part-one {
-    background-color: rgb(199, 199, 199);
+    /* background-color: rgb(199, 199, 199); */
     /* transform: translate3d(0px, 0px, 0px); */
     z-index: 6;
     /* display: none; */
