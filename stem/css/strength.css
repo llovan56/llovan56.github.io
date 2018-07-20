@@ -17,10 +17,10 @@ body {
 /* INTRO PAGE */
 
 #main {
-    /* background-color: rgb(255, 255, 255); */
-    background-image: url(../images/hawaii19.jpg);
+    background-color: rgb(255, 255, 255);
+    background-image: url(../images/loufit5.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 }
 

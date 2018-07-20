@@ -3,8 +3,7 @@
 
 
 
-
-
+// BIRTH
 
 var mainSection = document.querySelector('#main'),
     btnPageOne = document.querySelector('.btn-page-one'),

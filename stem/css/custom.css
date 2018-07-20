@@ -248,6 +248,7 @@ footer {
 }
 
 h2.item-headline {
+    display: none;
     font-style: italic;
 }
 
@@ -259,13 +260,19 @@ h2.item-headline {
 
 .two {
     background-color: black;
+    background-image: url(../images/steven-kean.jpg);
+    background-size: cover;
 }
 
 .three {
+    background-image: url(../images/loufit.jpg);
+    background-size: cover;
     background-color: blue;
 }
 
 .four {
+    background-image: url(../images/bagan-myanmar.jpg);
+    background-size: cover;
     background-color: teal;
 }
 
