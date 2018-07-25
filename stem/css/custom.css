@@ -252,6 +252,22 @@ h2.item-headline {
     font-style: italic;
 }
 
+#s-one {
+    display: none;
+}
+
+#s-two {
+    display: none;
+}
+
+#s-three {
+    display: none;
+}
+
+#s-four {
+    display: none;
+}
+
 .one {
     background-color: red;
     background-image: url(../images/taidam20.jpg);

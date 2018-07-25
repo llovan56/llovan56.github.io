@@ -80,7 +80,10 @@ footer {
 
     background-color: rgb(255, 255, 255);
     border-bottom: rgb(213, 133, 16) solid 1px;
+    height: 7.75em;
     padding: 2em;
+    /* position: absolute; */
+    top: 0;
     width: 100%;
 }
 
@@ -103,7 +106,7 @@ footer {
 
     background-color: rgb(255, 255, 255);
     max-width: 450px;
-    /* height: 1000px; */
+    height: 100vh;
 }
 
 .intro-item {
@@ -120,17 +123,23 @@ footer {
 
 #main {
     display: flex;
+    flex-direction: row;
 
     background-color: rgb(255, 255, 255);
     background-size: cover;
     border-bottom: rgb(213, 133, 16) solid 1px;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
+#main.hidden {
+    display: none;
+}
+
 .main-image {
-    background-image: url(../images/tea-cup.jpg);
+    background-image: url(../images/grey-box.jpg);
     background-size: cover;
+    /* display: none; */
     width: 65%;
     height: auto;
 }
@@ -143,6 +152,7 @@ footer {
 
     background-color: rgb(255, 255, 255);
     border-bottom: rgb(213, 133, 16) solid 1px;
+    /* display: inline; */
     /* max-width: 1200px; */
     margin: auto;
 }
