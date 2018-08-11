@@ -1,60 +1,84 @@
-// BIRTH
+// To scroll right
 
-var mainSection = document.querySelector('#main'),
+function scrollIt(element) {  
+    window.scrollTo({
+      'behavior': 'smooth',
+      'left': element.offsetLeft,
+      'top': 0
+    });
+}
+  
+  const btns = document.querySelectorAll('.btn-page');
+  const sections = document.querySelectorAll('.story');
+  
+  btns[0].addEventListener('click', () => {
+    scrollIt(sections[0]);
+    console.log('click')
+  });
+  
+  btns[1].addEventListener('click', () => {
+    scrollIt(sections[1]);
+  });
+  
+  btns[2].addEventListener('click', () => {
+    scrollIt(sections[2]);
+  });
+  
+  btns[3].addEventListener('click', () => {
+    scrollIt(sections[3]);
+  });
 
-    btnPageOne = document.querySelector('.btn-page-one'),
-    partOne = document.querySelector('#part-one'),
+  btns[4].addEventListener('click', () => {
+    scrollIt(sections[4]);
+  });
 
-    btnPageTwo = document.querySelector('#btn-page-two'),
-    partTwo = document.querySelector('#part-two'),
+  btns[5].addEventListener('click', () => {
+    scrollIt(sections[5]);
+  });
 
-    btnPageThree = document.querySelector('#btn-page-three'),
-    partThree = document.querySelector('#part-three'),
-
-    btnPageFour = document.querySelector('#btn-page-four'),
-    partFour = document.querySelector('#part-four'),
-
-    btnPageFive = document.querySelector('#btn-page-five'),
-    partFive = document.querySelector('#part-five'),
-
-    btnPageSix = document.querySelector('#btn-page-six'),
-    partSix = document.querySelector('#part-six');
-    
-    
-// Transition to part one from main
-btnPageOne.addEventListener("click", function () {
-    mainSection.style.display = "none";
-    partOne.style.display = "block";
-});
+ 
+  
 
 
+  //To scroll left
 
+  function scrollLeft(element) {  
+    window.scrollTo({
+      'behavior': 'smooth',
+      'left': 'auto',
+      'right': element.offsetLeft,
+      'top': 0
+    });
+}
+  
+  const btnsLeft = document.querySelectorAll('.btn-page-left');
+  const sectionsLeft = document.querySelectorAll('.story');
+  
+  btnsLeft[0].addEventListener('click', () => {
+    scrollLeft(sectionsLeft[0]);
+    console.log('click left')
+  });
+  
+  btnsLeft[1].addEventListener('click', () => {
+    scrollLeft(sectionsLeft[1]);
+  });
+  
+  btnsLeft[2].addEventListener('click', () => {
+    scrollLeft(sectionsLeft[2]);
+  });
+  
+  btnsLeft[3].addEventListener('click', () => {
+    scrollLeft(sectionsLeft[3]);
+  });
 
-// Transition to part two from one
-btnPageTwo.addEventListener("click", function () {
-    partOne.style.display = "none";
-    partTwo.style.display = "block";
-});
+  btnsLeft[4].addEventListener('click', () => {
+    scrollLeft(sectionsLeft[4]);
+  });
 
-// Transition to part three from two
-btnPageThree.addEventListener("click", function () {
-    partTwo.style.display = "none";
-    partThree.style.display = "block";
-});
+  btnsLeft[5].addEventListener('click', () => {
+    scrollLeft(sectionsLeft[5]);
+  });
 
-// Transition to part four from three
-btnPageFour.addEventListener("click", function () {
-    partThree.style.display = "none";
-    partFour.style.display = "block";
-});
-
-// Transition to part five from four
-btnPageFive.addEventListener("click", function () {
-    partFour.style.display = "none";
-    partFive.style.display = "block";
-});
-
-btnPageSix.addEventListener("click", function () {
-    partFive.style.display = "none";
-    partSix.style.display = "block";
-});
+  btnsLeft[6].addEventListener('click', () => {
+    scrollLeft(sectionsLeft[6]);
+  });
