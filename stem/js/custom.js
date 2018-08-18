@@ -4,6 +4,7 @@ function scrollIt(element) {
     window.scrollTo({
       'behavior': 'smooth',
       'left': element.offsetLeft,
+      'position': 'static',
       'top': 0
     });
 }
@@ -32,27 +33,32 @@ function scrollIt(element) {
     scrollIt(sections[4]);
   });
 
-  btns[5].addEventListener('click', () => {
-    scrollIt(sections[5]);
-  });
+  // btns[5].addEventListener('click', () => {
+  //   scrollIt(sections[5]);
+  // });
 
  
   
 
 
-  //To scroll left
+  // To scroll left
 
   function scrollLeft(element) {  
     window.scrollTo({
       'behavior': 'smooth',
-      'left': 'auto',
-      'right': element.offsetLeft,
+      // 'left': '1000px',
+      'margin-left': '-50%',
+      'position': 'static',
+      // 'right': element.offsetLeft,
       'top': 0
     });
 }
   
   const btnsLeft = document.querySelectorAll('.btn-page-left');
-  const sectionsLeft = document.querySelectorAll('.story');
+  const sectionsLeft = document.querySelectorAll('.card');
+  const main = document.querySelector('#main'),
+        one = document.querySelector('#part-one'),
+        two = document.querySelector('#part-two');
   
   btnsLeft[0].addEventListener('click', () => {
     scrollLeft(sectionsLeft[0]);
@@ -61,6 +67,7 @@ function scrollIt(element) {
   
   btnsLeft[1].addEventListener('click', () => {
     scrollLeft(sectionsLeft[1]);
+    console.log('click left2')
   });
   
   btnsLeft[2].addEventListener('click', () => {
@@ -79,6 +86,6 @@ function scrollIt(element) {
     scrollLeft(sectionsLeft[5]);
   });
 
-  btnsLeft[6].addEventListener('click', () => {
-    scrollLeft(sectionsLeft[6]);
-  });
+  // btnsLeft[6].addEventListener('click', () => {
+  //   scrollLeft(sectionsLeft[6]);
+  // });

@@ -87,7 +87,8 @@ h1.birth-headline {
 }
 
 .inner-story {
-    width: 85%;
+    /* height: 100%;
+    width: 100%; */
 }
 
 .story-content {
@@ -97,35 +98,39 @@ h1.birth-headline {
     justify-content: center;
 
     /* background-color: rgb(170, 170, 170); */
-    height: auto;
+    height: 100vh;
     margin: auto;
-    padding: .75em;
-    width: 100%;
+    padding: 3em;
+    width: 100vw;
 }
 
 /* PART ONE */
 
 .part-one-image {
-    /* background-color: red; */
-    width: 70%;
+    height: 100%;
+    width: auto;
+    top: 0;
 }
 
 .part-one-text-overlap {
-    align-self: flex-end;
+    /* align-self: flex-end; */
 
     display: block;
     height: auto;
-    left: -5%;
+    /* left: -3%; */
     position: relative;
-    width: 50%;
+    padding-left: 1em;
+    padding-top: 14%;
+    padding-right: 1em;
+    width: 40%;
 }
 
 /* PART TWO */
 
 .part-two-image {
-    /* background-color: red; */
-    height: auto;
-    width: 90%;
+    height: 100%;
+    width: auto;
+    top: 0;
 }
 
 .part-two-text {
@@ -133,19 +138,20 @@ h1.birth-headline {
 
     display: block;
     height: auto;
-    left: -8%;
+    left: -4%;
     position: relative;
-    width: 20%;
-    /* width: 45%; */
+    width: 35%;
 }
 
 /* PART THREE */
 
 .part-three-image {
-    align-self: flex-end;
-    /* background-color: red; */
-    height: auto;
-    width: 90%;
+    /* align-self: flex-end; */
+    height: 90%;
+    margin: auto;
+    /* right: 30%; */
+    top: 0;
+    width: auto;
 }
 
 .part-three-text {
@@ -153,9 +159,9 @@ h1.birth-headline {
 
     display: block;
     height: auto;
-    /* left: -15%; */
+    left: 7%;
     position: relative;
-    right: -15%;
+    /* right: -5%; */
     width: 30%;
 }
 
@@ -181,6 +187,7 @@ h1.birth-headline {
 /* PART FIVE */
 
 .part-five-container {
+    padding-top: 20%;
     width: 70%;
 }
 
@@ -195,59 +202,59 @@ h1.birth-headline {
 }
 
 .part-six-image {
-    height: auto;
-    width: 100%;
+    height: 100%;
+    width: auto;
 }
 
 
 /* For animation */
 
 #part-one {
-    /* transform: translate3d(0px, 0px, 0px); */
-    z-index: 6;
     display: block;
+    height: 100vh;
+    width: 100%;
+    z-index: 6;
 }
 
 #part-two {
-    /* transform: translate3d(0px, 0px, 0px); */
-    z-index: 5;
     display: block;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
 }
 
 #part-three {
-    /* transform: translate3d(0px, 0px, 0px); */
-    z-index: 4;
     display: block;
+    z-index: 4;
 }
 
 #part-four {
-    /* transform: translate3d(0px, 0px, 0px); */
-    z-index: 3;
     display: block;
+    z-index: 3;
 }
 
 #part-five {
-    /* transform: translate3d(0px, 0px, 0px); */
-    z-index: 2;
     display: block;
+    z-index: 2;
 }
 
 #part-six {
-    /* transform: translate3d(0px, 0px, 0px); */
-    z-index: 1;
     display: block;
+    z-index: 1;
 }
 
 .scrolling-wrapper-flexbox {
     display: flex;
     flex-wrap: nowrap;
 
+    /* overflow: hidden; */
     /* overflow-x: auto;
     overflow-y: none; */
 }
 
 .card {
     flex: 0 0 auto;
-
+    height: 100vh;
+    width: 100vw;
     /* position: fixed; */
 }
