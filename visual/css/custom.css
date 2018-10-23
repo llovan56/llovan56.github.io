@@ -155,7 +155,7 @@ footer {
 
 #main {
     background-color: rgb(255, 255, 255);
-    background-image: url(../images/bg.jpg);
+    /* background-image: url(../images/bg.jpg); */
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -304,7 +304,7 @@ h2.item-headline {
 
 .two {
     background-color: black;
-    background-image: url(../images/pacifica-bg.jpg);
+    background-image: url(../images/fidelity-bg.jpg);
     background-size: cover;
 }
 
@@ -315,7 +315,7 @@ h2.item-headline {
 }
 
 .four {
-    background-image: url(../images/ilani-bg.jpg);
+    background-image: url(../images/krispykreme-bg.jpg);
     background-size: cover;
     background-color: teal;
 }
