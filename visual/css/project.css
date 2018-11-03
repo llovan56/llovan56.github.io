@@ -6,7 +6,7 @@
 /* UTILITIES */
 
 h1, h2, h3, h4 ,h5{ 
-    color: #787272;
+    color: #727272;
     /* font-family: 'Abel', sans-serif; */
     letter-spacing: .12em;
     /* text-align: left; */
@@ -18,6 +18,27 @@ h1, h2, h3, h4 ,h5{
 
 .center {
     text-align: center;
+}
+
+.center-obj {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-obj {
+    float: left;
+    /* left: 0;
+    right: auto; */
+}
+
+.right-obj {
+    float: right;
+    /* left: auto;
+    right: 0; */
+}
+
+.half-obj {
+    width: 50%;
 }
 
 .right {
@@ -41,7 +62,7 @@ h1 {
 }
 
 p {
-    color: #898e7c;
+    color: #727272;
     font-family: 'Playfair Display', serif;
 }
 
@@ -77,21 +98,30 @@ p {
     margin: 3em;
 }
 
-.center {
-    margin-left: auto;
-    margin-right: auto;
+.full-ht {
+    height: 100vh;
+}
+
+.full-wt {
+    width: 100vw;
+}
+
+/* Border styles */
+.border-all {
+    border: rgb(150,150,150) solid 1px;
 }
 
 /* LINKS */
 a {
-    color: #898e7c;
+    color: #727272;
     font-family: 'Playfair Display', serif;
     padding: .75em;
     text-transform: lowercase;
 }
 
 a:hover {
-    color: #898e7c;
+    color: #b9b9b9;
+    font-style: italic;
     text-decoration: none;
 }
 
@@ -121,8 +151,10 @@ hr.right {
 
 footer {
     background-color: #e5e5e5;
+    height: auto;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 /* HEADER */
@@ -208,6 +240,9 @@ footer {
 .project7-bg {
     background-image: url(../images/audi-bg.jpg);
 }
+.project7-bg-color {
+    background-color: #fa0977;
+}
 
 .main-image {
     align-content: center;
@@ -247,15 +282,20 @@ footer {
 
 /* STORY */
 
+.color-box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .color {
-    background-color: black;
+    /* background-color: #fa0977; */
     height: 30px;
     margin: 1em;
     width: 150px;
 }
 
-.logo {
-    height: 100vh;
+.color-code {
+    padding-top: 1.5em;
 }
 
 .story {
@@ -289,7 +329,7 @@ footer {
 
 .inner-story-text {
     height: auto;
-    width: auto;
+    width: 45%;
 }
 
 .story-headline {
@@ -313,10 +353,6 @@ footer {
     margin: auto;
     padding: .75em;
     width: 100%;
-}
-
-.inner-story-text {
-    width: 45%;
 }
 
 .info {
@@ -354,13 +390,6 @@ footer {
 h2.item-headline {
     display: none;
     font-style: italic;
-}
-
-.big-donut {
-    display: block;
-    left: 2%;
-    position: absolute;
-    /* top: -200px; */
 }
 
 .img-100 {
@@ -429,6 +458,13 @@ p.footer-text {
 
 /* Krispy Kreme */
 
+.big-donut {
+    display: block;
+    left: 2%;
+    position: absolute;
+    /* top: -200px; */
+}
+
 .donut {
     left: 5%;
     position: absolute;
@@ -439,4 +475,13 @@ p.footer-text {
     bottom: 2%;
     position: absolute;
     right: 5%;
+}
+
+
+/* Reinvizion */
+
+.logo-re {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
