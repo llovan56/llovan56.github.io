@@ -61,6 +61,7 @@ html, body {
 
 #audi-300x250-ad {
     display: block;
+    pointer-events: none;
     position: absolute;
     right: 1%;
     top: 55%;
@@ -72,6 +73,7 @@ html, body {
     display: block;
     left: 40%;
     margin: auto;
+    pointer-events: none;
     position: absolute;
     right: 0;
     top: 35%;
