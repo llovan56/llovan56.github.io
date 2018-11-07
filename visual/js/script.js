@@ -48,53 +48,6 @@ four.addEventListener("mouseout", function () {
     sFour.style.display = "none";
 });
 
-five.addEventListener("mouseover", function () {
-    sFive.style.display = "block";
-});
-
-five.addEventListener("mouseout", function () {
-    sFive.style.display = "none";
-});
-
-
-
-// To scroll down
-
-function scrollIt(element) {  
-    window.scrollTo({
-      'behavior': 'smooth',
-      'left': 0,
-      'position': 'fixed',
-      'top': element.offsetTop,
-    //   'translate': 'translateY(100%)'
-    });
-}
-  
-  const btns = document.querySelectorAll('.btn-page');
-  const sections = document.querySelectorAll('.story');
-  var info = document.querySelectorAll('.info');
-  
-  btns[0].addEventListener('click', () => {
-    scrollIt(sections[0]);
-    console.log('click')
-  });
-  
-  btns[1].addEventListener('click', () => {
-    scrollIt(info[0]);
-  });
-  
-  btns[2].addEventListener('click', () => {
-    scrollIt(info[1]);
-  });
-  
-  btns[3].addEventListener('click', () => {
-    scrollIt(info[2]);
-  });
-
-  btns[4].addEventListener('click', () => {
-    scrollIt(info[3]);
-  });
-
 
 
 

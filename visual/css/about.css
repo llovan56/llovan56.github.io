@@ -1,0 +1,41 @@
+.about-container {
+    align-items: center;
+    display: none;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    /* flex: 3; */
+    justify-content: center;
+
+    background-color: rgba(245,245,245,.95);
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.about-container > * {
+    flex: 1 100%;
+}
+
+.about1 {
+    background-color: rgba(245,245,245,.95);
+    /* height: 60%; */
+    order: 1;
+    width: 48%;
+}
+
+.about2 {
+    background-color: rgba(245,245,245,.75);
+    /* height: 60%; */
+    order: 2;
+    width: 48%;
+}
+
+.close {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
