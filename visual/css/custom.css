@@ -347,6 +347,14 @@ h2.item-headline {
     background-color: teal;
 }
 
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: block;
+}
+
 
 /* FEATURED ITEM */
 
@@ -375,6 +383,22 @@ p.footer-text {
     }
     .inner-story-text {
         width: 100%;
+    }
+
+    #header {
+        position: absolute;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+    
+    .desktop-only {
+        display: none;
+    }
+
+    .info {
+        height: 60vh;
     }
 }
 
