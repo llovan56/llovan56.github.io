@@ -7,10 +7,23 @@ var clickAd = document.querySelector('.click-ad'),
 clickAd.addEventListener("click", function () {
     if (pushdown.classList = "visible") {
         pushdown.classList.add('hide');
+        pushdown.classList.remove('visible');
     }
-    pushdown.classList.add('visible');
-    console.log('click')
+    else {
+        pushdown.classList.add('visible');
+        pushdown.classList.remove('hide');
+        console.log('click')
+    }
+    
 });
+
+// clickAd.addEventListener("click", function () {
+//     if (pushdown.classList = "hide") {
+//         pushdown.classList.add('visible');
+//         pushdown.classList.remove('hide');
+//     }
+
+// });
 
 // clickAd.addEventListener("click", function () {
 //     this.pushdown.toggle('visible');
