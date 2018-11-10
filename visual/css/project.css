@@ -98,6 +98,7 @@ p {
 
 .full-ht {
     height: 100vh;
+    width: auto;
 }
 
 .full-wt {
@@ -110,6 +111,14 @@ p {
 
 .half-wt {
     width: 50vw;
+}
+
+.auto-wt {
+    width: 100vh;
+}
+
+.on-top {
+    z-index: 99;
 }
 
 /* Border styles */
@@ -225,7 +234,7 @@ footer {
 }
 
 .project3-bg {
-    background-image: url(../images/maserati-bg.jpg);
+    background-image: url(../images/fidelity-bg.jpg);
 }
 .project3-bg-color {
     background-color: #fa0977;
@@ -253,7 +262,7 @@ footer {
 }
 
 .project7-bg {
-    /* background-image: url(../images/audi-bg.jpg); */
+    background-image: url(../images/fidelity-usat.jpg);
 }
 .project7-bg-color {
     background-color: #fa0977;
@@ -528,6 +537,20 @@ p.footer-text {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Audi */
+
+.pushdown {
+    /* visibility: visible; */
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
 }
 
 /* mobile views */
