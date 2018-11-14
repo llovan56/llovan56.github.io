@@ -262,13 +262,24 @@ footer {
 }
 
 .project7-bg {
-    background-image: url(../images/fidelity-usat.jpg);
+    /* background-image: url(../images/fidelity-usat.jpg); */
 }
 .project7-bg-color {
     background-color: #fa0977;
 }
 
 .main-image {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.main-image-mobile {
     align-content: center;
     align-items: center;
     display: flex;
@@ -541,8 +552,8 @@ p.footer-text {
 
 /* Audi */
 
-.pushdown {
-    /* visibility: visible; */
+#pushdown {
+    opacity: 1;
 }
 
 .visible {
@@ -551,6 +562,13 @@ p.footer-text {
 
 .hide {
     visibility: hidden;
+}
+
+/* Fidelity */
+
+.project4-main {
+    /* position: absolute; */
+    top: 15%;
 }
 
 /* mobile views */

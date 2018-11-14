@@ -1,5 +1,5 @@
 var clickAd = document.querySelector('.click-ad'),
-    pushdown = document.querySelector('.pushdown');
+    pushdown = document.querySelector('#pushdown');
 
 
 // show/close button
