@@ -1,6 +1,11 @@
 * {
     text-align: center;
     font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    scroll-behavior: smooth;
 }
 
 /* UTILITIES */
@@ -65,7 +70,8 @@ p {
 }
 
 .sans-serif {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oswald', sans-serif;
 }
 
 .serif {
@@ -505,20 +511,6 @@ p.footer-text {
 
 
 /* Animated Ads */
-
-.pacifica-728x90-ad {
-    height: 250px;
-    width: 300px;
-
-    display: block;
-    right: 4%;
-    /* pointer-events: none; */
-    position: absolute;
-}
-
-.pacifica-article-mock {
-    width: 75%;
-}
 
 /* Krispy Kreme */
 

@@ -29,8 +29,9 @@ html, body {
 #ad-slot {
     /* background-color: green; */
     /* overflow: hidden; */
-    position: relative;
     padding-top: 20%;
+    position: relative;
+    pointer-events: none;
     transform: translateY(-50%);
 }
 

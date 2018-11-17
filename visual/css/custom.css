@@ -1,6 +1,7 @@
 * {
     text-align: center;
     font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
 }
 
 /* UTILITIES */
@@ -55,8 +56,7 @@ p {
 }
 
 .sans-serif {
-    /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .serif {
@@ -98,6 +98,11 @@ a {
     font-family: 'Playfair Display', serif;
     padding: .75em;
     text-transform: lowercase;
+}
+
+.button-block {
+    /* background-color: #fa0977; */
+    border: solid 1px #727272;
 }
 
 a:hover {
@@ -291,12 +296,19 @@ footer {
 }
 
 h2.item-headline {
-    display: none;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
-#s-one {
-    display: none;
+.s-one {
+    /* display: none; */
+    opacity: 0;
+
+    -webkit-transition-property: width height background-color font-size top transform -webkit-transform color;
+    -webkit-transition-duration: .25s;
+    -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    transition-property: width height background-color font-size top transform -webkit-transform color;
+    transition-duration: .25s;
+    transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
 }
 
 #s-two {

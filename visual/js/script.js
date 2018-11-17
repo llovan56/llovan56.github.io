@@ -14,12 +14,22 @@ var itemHeadline = document.querySelector('.item-headline'),
     sFive = document.querySelector('.s-five');
 
 one.addEventListener("mouseover", function () {
-    sOne.style.display = "block";
+    // sOne.style.opacity = "1";
+    // sOne.fadeIn();
+    oneHover();
 });
 
-one.addEventListener("mouseout", function () {
-    sOne.style.display = "none";
-});
+function oneHover() {
+    $('.s-one').fadeIn(200, function () {
+        $('.s-one').animate({
+            'opacity': '1'
+        });
+    });
+}
+
+// one.addEventListener("mouseout", function () {
+//     sOne.style.display = "none";
+// });
 
 
 two.addEventListener("mouseover", function () {

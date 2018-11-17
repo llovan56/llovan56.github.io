@@ -5,15 +5,16 @@ var clickAd = document.querySelector('.click-ad'),
 // show/close button
 
 clickAd.addEventListener("click", function () {
-    if (pushdown.classList = "visible") {
-        pushdown.classList.add('hide');
-        pushdown.classList.remove('visible');
-    }
-    else {
-        pushdown.classList.add('visible');
-        pushdown.classList.remove('hide');
-        console.log('click')
-    }
+    // if (pushdown.classList = "visible") {
+    //     pushdown.className.replace('hide');
+    // }
+    // else {
+    //     pushdown.className.replace('hide');
+    //     console.log('click')
+    // }
+
+
+    pushdown.classList.toggle('hide');
     
 });
 
