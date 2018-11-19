@@ -401,7 +401,8 @@ p.footer-text {
 }
 
 .hidden {
-    opacity: 0;
+    /* opacity: 0; */
+    visibility: hidden;
 }
 
 @keyframes fade-in {
@@ -438,3 +439,62 @@ p.footer-text {
     }
 }
 
+/* Slide in */
+
+.align-left {
+    float:left;
+    margin-right:20px;
+}
+
+.align-right {
+    float:right;
+    margin-left:20px;
+}
+
+.slide-in {
+    opacity:0;
+    transition:all .5s;
+}
+
+.align-left.slide-in {
+    transform:translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+    transform:translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+    opacity:1;
+    transform:translateX(0%) scale(1);
+}
+
+/* animates when scrolled on screen */
+
+.onScreen {
+    visibility: hidden;
+}
+
+.onScreen-bottom {
+    bottom: -300px;
+    visibility: hidden;
+}
+
+.fadeIn-bottom {
+    -webkit-animation: animat_show 3.0s;
+    animation: animat_show 3.0s;
+    bottom: auto;
+    visibility: visible !important;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 3.0s;
+    animation: animat_show 3.0s;
+    bottom: auto;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}

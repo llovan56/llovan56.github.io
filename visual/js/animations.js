@@ -1,45 +1,37 @@
-var animateHTML = function() {
-    var elems;
-    var windowHeight;
-    function init() {
-      elems = document.querySelectorAll('.hidden');
-      windowHeight = window.innerHeight;
-      addEventHandlers();
-      checkPosition();
-    }
-    function addEventHandlers() {
-      window.addEventListener('scroll', checkPosition);
-      window.addEventListener('resize', init);
-    }
-    function checkPosition() {
-      for (var i = 0; i < elems.length; i++) {
-        var positionFromTop = elems[i].getBoundingClientRect().top;
-        if (positionFromTop - windowHeight <= 0) {
-          elems[i].className = elems[i].className.replace(
-            'hidden',
-            'fade-in-element'
-          );
-        }
-      }
-    }
-    return {
-      init: init
-    };
+// slidein scroll
+
+function debounce(func, wait = 20, immediate = true) {
+  var timeout;
+  return function() {
+      var context = this, args = arguments;
+      var later = function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
   };
-animateHTML().init();
+      var callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+  };
+};
 
-function animation () {
-    this.$('#heading').delay(1000).fadeIn(1000, function () {
-        // $('#heading').animate({
-        //     'opacity': '1'
-        // });
-    });
+const sliderImages = document.querySelectorAll('.slide-in');
 
-    this.$('#heading2').delay(1000).fadeIn(2000, function () {
-        // $('#heading').animate({
-        //     'opacity': '1'
-        // });
-    });
-}  
+function checkSlide() {
+  sliderImages.forEach(sliderImage => {
+      // half way through the image
+      const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+      // bottom of the image
+      const imageBottom = sliderImage.offsetTop + sliderImage.height;
+      const isHalfShown = slideInAt > sliderImage.offsetTop;
+      const isNotScrolledPast = window.scrollY < imageBottom;
+      if (isHalfShown && isNotScrolledPast) {
+          sliderImage.classList.add('active');
+          console.log('slide')
+      } else {
+          sliderImage.classList.remove('active');
+      }
+  });
+}
 
-animation();
+window.addEventListener('scroll', debounce(checkSlide));

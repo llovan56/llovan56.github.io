@@ -621,3 +621,25 @@ p.footer-text {
     .story-headline { order: 1; }
     .story-text { order: 2; }
 }
+
+/* animates when scrolled on screen */
+
+.onScreen {
+    visibility: hidden;
+    /* opacity: 0; */
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 1.5s;
+    animation: animat_show 1.5s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+.headline {
+    opacity: 0;
+}

@@ -15,7 +15,6 @@ var itemHeadline = document.querySelector('.item-headline'),
 
 one.addEventListener("mouseover", function () {
     // sOne.style.opacity = "1";
-    // sOne.fadeIn();
     oneHover();
 });
 
@@ -57,7 +56,5 @@ four.addEventListener("mouseover", function () {
 four.addEventListener("mouseout", function () {
     sFour.style.display = "none";
 });
-
-
 
 
