@@ -632,6 +632,7 @@ p.footer-text {
 .fadeIn {
     -webkit-animation: animat_show 1.5s;
     animation: animat_show 1.5s;
+    left: 300px;
     visibility: visible !important;
 }
 
@@ -641,5 +642,14 @@ p.footer-text {
 }
 
 .headline {
-    opacity: 0;
+    /* display: none; */
+    /* opacity: 0; */
+    left: 500px;
+
+    -webkit-transition-property: width height background-color font-size top transform -webkit-transform color;
+    -webkit-transition-duration: .75s;
+    -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    transition-property: width height background-color font-size top transform -webkit-transform color;
+    transition-duration: .75s;
+    transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
 }

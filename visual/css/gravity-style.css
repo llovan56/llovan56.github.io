@@ -170,10 +170,11 @@
 .fidelity-gravity-201808 .background,
 .fidelity-gravity-201808 .background-portrait,
 .fidelity-gravity-201808 .background-mobile {
-    bottom: 0;
     display: block;
+    height: 100%;
     left: 0;
     position: absolute;
+    top: 0;
     z-index: 3;
 }
 
@@ -184,10 +185,11 @@
 }
 
 .fidelity-gravity-201808 #bg-switch {
-    bottom: 0;
     display: none;
+    height: 100%;
     left: 0;
     position: absolute;
+    top: 0;
     z-index: 3;
 }
 

@@ -140,6 +140,12 @@ footer {
     padding: 0;
 }
 
+/* ABOUT */
+
+#about {
+    display: flex;
+}
+
 /* HEADER */
 
 #header {
@@ -495,6 +501,44 @@ p.footer-text {
 }
 
 @-webkit-keyframes animat_show{
-    0%{opacity:0}
-    100%{opacity:1}
+    from {
+        0%{opacity:0}
+    }
+
+    to {
+        100%{opacity:1}
+    }
 }
+
+.headline {
+    /* display: none; */
+    /* opacity: 0; */
+    left: -500px;
+
+    -webkit-transition-property: width height background-color font-size top transform -webkit-transform color;
+    -webkit-transition-duration: .75s;
+    -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    transition-property: width height background-color font-size top transform -webkit-transform color;
+    transition-duration: .75s;
+    transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+}
+
+.fadeIn {
+    animation: ease-in;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      opacity: 0;
+      /* width: 100%;  */
+    }
+  
+    to {
+      margin-left: 0%;
+      opacity: 1;
+      /* width: 100%; */
+    }
+  }
