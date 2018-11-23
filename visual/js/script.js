@@ -18,9 +18,24 @@ one.addEventListener("mouseover", function () {
     oneHover();
 });
 
+two.addEventListener("mouseover", function () {
+    // sOne.style.opacity = "1";
+    twoHover();
+});
+
 function oneHover() {
     $('.s-one').fadeIn(200, function () {
-        $('.s-one').animate({
+        $('.s-one').css({
+            // 'background':'red',
+            'opacity': '1'
+        });
+    });
+}
+
+function twoHover() {
+    $('.s-two').fadeIn(200, function () {
+        $('.s-two').css({
+            // 'background':'blue',
             'opacity': '1'
         });
     });
@@ -31,13 +46,13 @@ function oneHover() {
 // });
 
 
-two.addEventListener("mouseover", function () {
-    sTwo.style.display = "block";
-});
+// two.addEventListener("mouseover", function () {
+//     sTwo.style.display = "block";
+// });
 
-two.addEventListener("mouseout", function () {
-    sTwo.style.display = "none";
-});
+// two.addEventListener("mouseout", function () {
+//     sTwo.style.display = "none";
+// });
 
 
 three.addEventListener("mouseover", function () {
