@@ -29,6 +29,10 @@ function showImages(el) {
             $('.fade').css({
                 'opacity':'1'
             });
+
+            $('.color').css({
+                'width':'150px'
+            });
         }
     });
 }
@@ -37,10 +41,10 @@ function showImages(el) {
   
 // if the image in the window of browser when the page is loaded, show that image
 $(document).ready(function(){
-    showImages('.slideRight,.slideLeft,.slideUp');
+    showImages('.onScreen,.slideRight,.slideLeft,.slideUp,.colorWt');
 });
   
 // if the image in the window of browser when scrolling the page, show that image
 $(window).scroll(function() {
-    showImages('.slideRight,.slideLeft,.slideUp');
+    showImages('.onScreen,.slideRight,.slideLeft,.slideUp');
 });

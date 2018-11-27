@@ -1,4 +1,4 @@
-var close = document.querySelector('.close'),
+var close = document.querySelector('#close-btn'),
     about = document.querySelector('.about-container'),
     aboutLink = document.querySelector('.about-link');
 
@@ -6,26 +6,21 @@ var close = document.querySelector('.close'),
 // show/close button
 
 aboutLink.addEventListener("click", function () {
-    about.style.display = "flex";
+    $('.about-container').css({
+        'display': 'flex'
+    });
+    // $('#header').css({
+    //     'display': 'inline-flex'
+    // });
 });
 
 close.addEventListener("click", function () {
-    about.style.display = "none";
+    $('.about-container').css({
+        'display': 'none'
+    });
+    // $('#header').css({
+    //     'display': 'none'
+    // });
+    console.log('close')
 });
 
-// about block
-var div = document.createElement('div');
-    div.setAttribute('class', 'post');
-    div.innerHTML = `
-        <div class="about-container">
-            <h1 class="sans-serif close">close</p>
-            <h2 class="lite serif">who am i?</h1>
-            <div class="about1">
-                <p>test</p>
-            </div>
-            <div class="about2">
-                <p>test2</p>
-            </div>
-        </div>
-        `;
-document.getElementById('about').appendChild(div);

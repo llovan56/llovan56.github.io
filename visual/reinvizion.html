@@ -12,23 +12,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/about.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
 <body>
     <div>
+        <!-- about popup -->
+        <div id="about"></div>
+        
         <div class="project1-bg" id="main">
             <div id="header">
                 <a href="index.html">
                     <p class="serif">lindalovan</p>
                 </a>
                 <div class="links">
-                    <a href="#">who?</a>
+                    <a class="about-link" href="#">who?</a>
                 </div>
             </div>
             <div class="main-image">
@@ -43,7 +44,7 @@
         <div class="story padding-1 project1-bg-color">
             <div class="inner-story">
                 <div class="img-50 center-obj">
-                    <div class="fadeIn headline story-headline">
+                    <div class="onScreen slideLeft headline story-headline">
                         <h1 class="sans-serif">UX/UI</h1>
                     </div>
                     <div class="inner-story-text center-obj">
@@ -55,38 +56,38 @@
         </div>
 
         <div class="story project1-bg-color">
-            <img class="onScreen slideUp img-50 margin-3" src="images/reinvizion-index.png">
-        </div>
-
-        <div class="onScreen story2 half-ht project3-bg-color">
-            <div class="inner-story">
-                    <div class="story-text img-75">
-                            <div class="inner-story-text margin-1">
-                                <div class="story-headline">
-                                    <h2 class="sans-serif white">courses loaded</h2>
-                                </div>
-                                <p class="white left">The courses are all video-based with specialized instructors which encourages peer-to-peer discussion and collaboration to create a unique experience each session. I joined the team about 6 months after the start-up company began. The underlying challenge was to figure out how to effectively incorporate video and the learning course plan on desktop without too much bloat.</p>
-                            </div>
-                            <div class="inner-story-text">
-                                <img class="img-100 margin-1" src="images/reinvizion-desktop-video.png">
-                            </div>
-                        </div>
+            <div class="onScreen slideUp">
+                <img class="center-obj img-50 margin-3" src="images/reinvizion-index.png">
             </div>
         </div>
 
-        <div class="onScreen story2 half-ht project1-bg-color">
+        <div class="story2 half-ht project3-bg-color">
             <div class="inner-story">
-                    <div class="story-text img-50">
-                            <div class="inner-story-text">
-                                <img class="img-50 margin-1" src="images/reinvizion-mobile.png">
-                            </div>
-                            <div class="inner-story-text margin-3">
-                                <h2 class="sans-serif white">on the go</h2>
-                                <p class="left white">Eventually the platform would be available on mobile to allow access to all courses since the target audience is primarily those with full-time work experience and business owners who are looking for more entrepreneurial knowledge.</p>
-                            </div>
+                <div class="story-text onScreen slideLeft img-75">
+                    <div class="inner-story-text margin-1">
+                        <div class="story-headline">
+                            <h2 class="sans-serif white">courses loaded</h2>
                         </div>
+                        <p class="white left">The courses are all video-based with specialized instructors which encourages peer-to-peer discussion and collaboration to create a unique experience each session. I joined the team about 6 months after the start-up company began. The underlying challenge was to figure out how to effectively incorporate video and the learning course plan on desktop without too much bloat.</p>
+                        </div>
+                    <div class="inner-story-text">
+                        <img class="img-100 margin-1" src="images/reinvizion-desktop-video.png">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                
+        <div class="story2 half-ht project1-bg-color">
+            <div class="inner-story">
+                <div class="story-text onScreen slideRight img-50">
+                    <div class="inner-story-text">
+                        <img class="img-50 margin-1" src="images/reinvizion-mobile.png">
+                    </div>
+                    <div class="inner-story-text margin-3">
+                        <h2 class="sans-serif white">on the go</h2>
+                        <p class="left white">Eventually the platform would be available on mobile to allow access to all courses since the target audience is primarily those with full-time work experience and business owners who are looking for more entrepreneurial knowledge.</p>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -94,7 +95,7 @@
         <div class="logo-re full-ht full-wt project1-bg2">
             <div class="img-75 story-text padding-3">
                 <div>
-                    <img class="img-100" src="images/aaux.png">
+                    <img class="slideRight img-100" src="images/aaux.png">
                 </div>
                 <div class="half-wt center-obj">
                     <div class="half-obj left-obj">
@@ -131,20 +132,19 @@
         </div>
    
 
-            <div class="story2 full-ht project1-bg-color">
-                <div class="story-text2">
-                    <div>
-                        <img class="img-33 padding-1" src="images/reinvizion-tile1.jpg">
-                        <img class="img-33 padding-1" src="images/reinvizion-tile2.jpg">
-                    </div>
-                    <div>
-                        <img class="img-33 padding-1" src="images/reinvizion-tile4.jpg">
-                        <img class="img-33 padding-1" src="images/reinvizion-tile3.jpg">
-                    </div>
+        <div class="story2 full-ht project1-bg-color">
+            <div class="story-text2">
+                <div>
+                    <img class="img-33 padding-1" src="images/reinvizion-tile1.jpg">
+                    <img class="img-33 padding-1" src="images/reinvizion-tile2.jpg">
+                </div>
+                <div>
+                    <img class="img-33 padding-1" src="images/reinvizion-tile4.jpg">
+                    <img class="img-33 padding-1" src="images/reinvizion-tile3.jpg">
                 </div>
             </div>
-            
         </div>
+    </div>
 
         <footer>
             <div class="img-100 footer-content">
@@ -164,7 +164,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/about-me.js"></script>
     <script src="js/close-button.js"></script>
     <script src="js/slide.js"></script>
 </body>

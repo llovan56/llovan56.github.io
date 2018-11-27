@@ -183,6 +183,12 @@ footer {
     width: 100%;
 }
 
+/* ABOUT */
+
+#about {
+    display: flex;
+}
+
 /* HEADER */
 
 #header {
@@ -197,7 +203,7 @@ footer {
     right: 0;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 50;
 }
 
 .links {
@@ -333,8 +339,25 @@ footer {
 .color {
     height: 30px;
     margin: 1em;
-    width: 150px;
+    width: 0px;
+
+    -webkit-animation: color-wt 1.0s;
+    animation: ease-in;
+    animation-duration: 1.0s;
+    animation-name: color-wt;
 }
+
+@keyframes color-wt {
+    from {
+      opacity: 0;
+      width: 0; 
+    }
+  
+    to {
+      opacity: 1;
+      width: 150px;
+    }
+  }
 
 .color-code {
     padding-top: 1.5em;
@@ -625,21 +648,46 @@ p.footer-text {
 /* animates when scrolled on screen */
 
 .onScreen {
-    visibility: visible;
-    /* opacity: 0; */
+    visibility: hidden;
 }
 
-.fadeIn {
-    -webkit-animation: animat_show 1.5s;
-    animation: animat_show 1.5s;
-    left: 300px;
+.onScreen-bottom {
+    /* bottom: -300px; */
+    visibility: hidden;
+}
+
+.fadeIn-bottom {
+    -webkit-animation: animat_show 3.0s;
+    animation: animat_show 3.0s;
+    bottom: auto;
     visibility: visible !important;
 }
 
-@-webkit-keyframes animat_show{
-    0%{opacity:0}
-    100%{opacity:1}
+.fadeIn {
+    /* background-color: red; */
+    -webkit-animation: fadeIn 1.0s;
+    animation: ease-in;
+    animation-duration: 1.0s;
+    animation-name: fadeIn;
+    bottom: auto;
+    /* opacity: 1; */
+    position: relative;
+    visibility: visible !important;
 }
+  
+  @keyframes fadeIn {
+    from {
+      /* left: -300px; */
+      opacity: 0;
+      /* width: 100%;  */
+    }
+  
+    to {
+      /* left: 0; */
+      opacity: 1;
+      /* width: 100%; */
+    }
+  }
 
 .slideRight {
     /* background-color: black; */
@@ -654,10 +702,10 @@ p.footer-text {
 
     -webkit-transition-property: width height background-color font-size top transform -webkit-transform color;
     -webkit-transition-duration: .75s;
-    -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    /* -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53); */
     transition-property: width height background-color font-size top transform -webkit-transform color;
     transition-duration: .75s;
-    transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    /* transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53); */
 }
 
 .slideLeft {
@@ -673,10 +721,10 @@ p.footer-text {
 
     -webkit-transition-property: width height background-color font-size top transform -webkit-transform color;
     -webkit-transition-duration: .75s;
-    -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    /* -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53); */
     transition-property: width height background-color font-size top transform -webkit-transform color;
     transition-duration: .75s;
-    transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    /* transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53); */
 }
 
 .slideUp {
@@ -692,8 +740,10 @@ p.footer-text {
 
     -webkit-transition-property: width height background-color font-size top transform -webkit-transform color;
     -webkit-transition-duration: .75s;
-    -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    /* -webkit-transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53); */
     transition-property: width height background-color font-size top transform -webkit-transform color;
     transition-duration: .75s;
-    transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+    /* transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53); */
 }
+
+/* CLOSE BUTTON */

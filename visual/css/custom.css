@@ -107,6 +107,7 @@ a {
 
 a:hover {
     color: #898e7c;
+    font-style: italic;
     text-decoration: none;
 }
 
@@ -160,6 +161,7 @@ footer {
     right: 0;
     top: 0;
     width: 100%;
+    z-index: 50;
 }
 
 .links {
@@ -485,7 +487,7 @@ p.footer-text {
 /* animates when scrolled on screen */
 
 .onScreen {
-    visibility: visible;
+    visibility: hidden;
 }
 
 .onScreen-bottom {
@@ -515,7 +517,7 @@ p.footer-text {
   @keyframes fadeIn {
     from {
       /* left: -300px; */
-      opacity: 0;
+      opacity: 1;
       /* width: 100%;  */
     }
   
@@ -582,3 +584,8 @@ p.footer-text {
     transition-duration: .75s;
     /* transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53); */
 }
+
+
+
+/* CLOSE BUTTON */
+

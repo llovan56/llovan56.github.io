@@ -4,6 +4,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     pointer-events: none;
+    z-index: 51;
 }
 
 .fidelity-gravity-201808 {
