@@ -5,18 +5,20 @@ var clickAd = document.querySelector('.click-ad'),
 // show/close button
 
 clickAd.addEventListener("click", function () {
-    // if (pushdown.classList = "visible") {
-    //     pushdown.className.replace('hide');
+    // if {
+    //     $('#pushdown').css({
+    //         'opacity': '0'
+    //     });
+    // } else {
+    //     $('#pushdown').css({
+    //         'opacity': '1'
+    //     });
     // }
-    // else {
-    //     pushdown.className.replace('hide');
-    //     console.log('click')
-    // }
-
 
     pushdown.classList.toggle('hide');
     
 });
+
 
 // clickAd.addEventListener("click", function () {
 //     if (pushdown.classList = "hide") {
