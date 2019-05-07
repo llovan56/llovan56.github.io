@@ -51,8 +51,8 @@ img {
 hr {
     border-bottom: rgb(213, 133, 16) solid 1px;
     border-style: thin;
-    /* margin-left: 0; */
-    
+    padding: 0;
+    margin: 0;
 }
 
 hr.left {
@@ -66,7 +66,7 @@ hr.right {
 }
 
 footer {
-    background-color: #e5e5e5;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -127,7 +127,7 @@ footer {
 
     background-color: rgb(255, 255, 255);
     background-size: cover;
-    border-bottom: rgb(213, 133, 16) solid 1px;
+    /* border-bottom: rgb(213, 133, 16) solid 1px; */
     height: auto;
     width: 100%;
 }
@@ -137,7 +137,7 @@ footer {
 }
 
 .main-image {
-    background-image: url(../images/grey-box.jpg);
+    background-image: url(../images/tea-cup.jpg);
     background-size: cover;
     /* display: none; */
     width: 65%;
@@ -152,6 +152,7 @@ footer {
 
     background-color: rgb(255, 255, 255);
     border-bottom: rgb(213, 133, 16) solid 1px;
+    border-top: rgb(213, 133, 16) solid 1px;
     /* display: inline; */
     /* max-width: 1200px; */
     margin: auto;
@@ -199,13 +200,27 @@ footer {
 .event {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     -webkit-flex-flow: row wrap;
 
-    border: rgb(213, 133, 16) solid 1px;
+    border-top: rgb(213, 133, 16) solid 1px;
     height: 145px;
     max-width: 100%;
     margin: auto;
+    padding: 0;
+}
+
+.event-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-flex-flow: row wrap;
+
+    border-top: rgb(213, 133, 16) solid 1px;
+    height: 145px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0;
 }
 
 .event-date {
@@ -213,7 +228,8 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    margin: auto;
 
     width: 20%;
 }
@@ -232,7 +248,13 @@ footer {
 }
 
 .event-img {
-    background-image: url(../images/grey-box.jpg);
+    background-image: url(../images/menu.jpg);
+    background-size: cover;
+    width: 40%;
+}
+
+.event-img2 {
+    background-image: url(../images/snacks.jpg);
     background-size: cover;
     width: 40%;
 }
@@ -266,3 +288,5 @@ footer {
 p.footer-text {
     font-size: .75em;
 }
+
+/* Animation */
