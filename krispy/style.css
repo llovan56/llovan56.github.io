@@ -1,0 +1,159 @@
+body {
+    text-align: center;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    color: #09835a;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.img-responsive {
+    margin: auto;
+}
+
+span.red{
+    color: #d11848;
+}
+  
+span.green{
+    color: #00704a;
+}
+  
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+div.header{
+    background-image:url(img/dots.png);
+    background-repeat:repeat-x;
+    height:25px;
+    margin-top:15px;
+}
+
+div#kk-container{
+    margin-top:30px;
+    max-width:1200px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding:15px 0px 50px 0px;
+    background-image:url(img/texture.jpg);
+    background-repeat:repeat-y;
+}
+
+h1.heading{
+    font-size:4em;
+    font-weight:700;
+    color: #00704a;
+}
+
+.main{
+    padding: 15px 25px 15px 25px;
+}
+
+div.info{
+    padding:15px;
+}
+
+div.social-media{
+    padding:25px;
+}
+
+.coupon {
+    padding:10px;
+}
+
+div.title{
+    background-color: #d11848;
+    padding: 5px 5px 5px 5px;
+}
+
+h2.coupon {
+    color: #fff;
+}
+
+h3.coupon {
+    color: #00704a;
+}
+
+.holder{
+    padding:10px;
+}
+
+.offers{
+    padding:10px;
+}
+
+div.deal{
+    padding: 10px;
+    background-color: transparent;
+    border-style: dashed;
+    border-color: #d11848;
+    border-width: 2px;
+    height: 230px;
+}
+
+div.border{
+    height:2px;
+    background-color: #00704a;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+#footer{
+    background-color: #fff;
+    height: auto;
+    padding: 15px 15px 70px 15px;
+}
+
+hr{
+    border-color: #d11848;
+}
+
+/* button styles */
+.btn-lg{
+    background-color: #d11848;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-lg:hover, .btn-lg:focus, .btn-lg:active, .btn-lg.active, .open > .dropdown-toggle.btn-primary {
+    background: #fff;
+    border-color: #00704a;
+    color: #00704a;
+    border-width: 2px;
+}
+
+a:link,a:hover,a:active,a:visited{
+    color: #fff;
+  }
+
+@media (max-width: 970px){
+    img {
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+@media(max-width:1170px){
+    div.deal {
+        height:auto;
+    }
+    img {
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
