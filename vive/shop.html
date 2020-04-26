@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>shop</title>
-    <meta name="description" content="Shopy" />
+    <meta name="description" content="Vive Tea" />
     <meta name="keywords" content="shopping, website, awesomeness, web design, web, design" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -22,19 +22,47 @@
 
 <body>
     <div>
+        <div id="close-background"></div>
+        <!-- shopping item when clicked -->
+        <div id="selected-item">
+            <!-- <div class="col-lg-9 product-section">
+                <p id="close-button">Close</p>
+                <div class="col-lg-12 product-box">
+                    <div class="col-lg-6">
+                        <img id="ancient-happiness" class="product-image" src="images/spacer.png">
+                    </div>
+                    <div class="col-lg-6 product-description">
+                        <h1 id="ancient-happiness-name" class="serif product-name"></h1>
+                        <p>Sometimes simple is best… Our blend of Japanese Sencha Green Tea with a medley of Sunflower, Rose and Cornflower petals will delight your senses and soothe your spirit. This versatile tea is as good iced as it is hot. The path to Ancient Happiness involves developing a desire for that which you already possess. The pleasure that you will receive from this tea will serve as your guide on this path.</p>
+                        <label class="container"><p>2 oz. $11.50</p>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        
+                        <label class="container"><p>4 oz. $23.00</p>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        
+                        <label class="container"><p>8 oz. $46.00</p>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        
+                        <button type="button" class="btn btn-warning">Buy Now</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
         <div id="header">
             <a href="index.html"><img class="logo" src="images/logo.png"></a>
-            <div>
-                <span id="prev_button">Previous</span>
-                <span id="next_button">Next</span>
-            </div>
             <div class="links">
                 <a href="shop.html">shop</a>
                 <a href="story.html">info</a>
             </div>
         </div>
-        <div id="main">
-            <div class="tea-types">
+        <div id="col-lg-12 main">
+            <div class="col-lg-2 tea-types">
                 <div class="tea-type-inner-item">
                     <h3>Tea Selection</h3>
                 </div>
@@ -45,95 +73,230 @@
                     <h3 id="white-tea" class="tea-type-link" href="#">white</h3>
                     <h3 id="oolong-tea" class="tea-type-link" href="#">oolong</h3>
                     <h3 id="herbal-tea" class="tea-type-link" href="#">herbal</h3>
-                    <h3 id="yellow-tea" class="tea-type-link" href="#">yellow</h3>
+                    <h3 id="yellow-tea" class="tea-type-link" href="#">puerh</h3>
                 </div>
             </div>
-            <div class="shop-intro-section">
+            <div class="col-lg-10 shop-intro-section">
                 <!-- Section 1 -->
-                <div class="shop-intro">
-                    <div class="shop-img">
-                        <!-- Keep blank -->
+                <div id="section-one">
+                    <div class="half-circle desktop">
+                        <p class="selected-name serif">green</p>
+                        <img src="images/half-circle.svg">
                     </div>
-                    <div class="shop-intro-item">
-                        <div class="shop-intro-inner-item">
-                            <h2 class="green-serif">The Way of Tea</h1>
+                    <div class="col-lg-12 product-selection-section">
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <div class="col-lg-12">
+                                <img class="product-image"   src="images/green-ancient-happiness.jpg">
+                                <p class="item">Ancient Happiness</p>
+                            </div>
                         </div>
-                        <div class="shop-intro-inner-item">
-                            <p class="shop-general-text">My experience with tea began when I was child. My parents weren't coffee drinkers at the time, so we always had tea as our hot beverage of choice. I got away from tea about the same time I started attending college. I became a coffee drinker, and continued the habit for nearly fifteen years before I finally isolated it as something which had a negative affect on my energy level. I stopped drinking coffee "cold turkey" and replaced it with common bagged teas – and felt much better as a result. My interest in tea was immediately reinvigorated at that point.</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/green-cherry-blossom.jpg">
+                            <p class="item">Cherry Blossom</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/green-cloud-nine.jpg">
+                            <p class="item">Cloud Nine</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 product-selection-section">
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/green-genmaimatcha.jpg">
+                            <p class="item">Genmai Matcha</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/green-ginger-tangerine-sencha.jpg">
+                            <p class="item">Ginger Tangerine Sencha</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/green-kaiseki-hojicha.jpg">
+                            <p class="item">Kaiseki Hojicha</p>
                         </div>
                     </div>
                 </div>
                 <!-- Section 2 -->
                 <div id="section-two">
+                    <div class="half-circle desktop">
+                        <p class="selected-name serif">black</p>
+                        <img src="images/half-circle.svg">
+                    </div>
                     <div class="product-selection-section">
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/black-erin-go-bragh.jpg">
+                            <p class="item">Erin Go Bragh</p>
                         </div>
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/black-purple-passion.jpg">
+                            <p class="item">Purple Passion</p>
                         </div>
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/black-red-fruit-melange.jpg">
+                            <p class="item">Red Fruit Melange</p>
                         </div>
                     </div>
                     <div class="product-selection-section">
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/black-red-plum-tea.jpg">
+                            <p class="item">Red Plum Tea</p>
                         </div>
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/black-constant-companion.jpg">
+                            <p class="item">Constant Companion</p>
                         </div>
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/black-masala-chai.jpg">
+                            <p class="item">Masala Chai</p>
                         </div>
                     </div>
                 </div>
+
                 <!-- Section 3 -->
                 <div id="section-three">
+                    <div class="half-circle">
+                        <p class="selected-name serif">white</p>
+                        <img src="images/half-circle.svg">
+                    </div>
                     <div class="product-selection-section">
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/white-bud-jasmine.jpg">
+                            <p class="item">Bud Jasmine</p>
                         </div>
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/white-champagne-raspberry.jpg">
+                            <p class="item">Champagne Raspberry</p>
                         </div>
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/white-goji-berry.jpg">
+                            <p class="item">Goji Berry</p>
                         </div>
                     </div>
                     <div class="product-selection-section">
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/white-peony.jpg">
+                            <p class="item">Peony</p>
                         </div>
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/white-silver-needle.jpg">
+                            <p class="item">Silver Needle</p>
                         </div>
-                        <div class="product-column-align">
-                            <img class="product" src="images/small-box.jpg">
-                            <p>test</p>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/white-la-pina-colada.jpg">
+                            <p class="item">La Pina Colada</p>
                         </div>
                     </div>
                 </div>
+                <!-- Section 4 -->
+                <div id="section-four">
+                    <div class="half-circle">
+                        <p class="selected-name serif">oolong</p>
+                        <img src="images/half-circle.svg">
+                    </div>
+                    <div class="product-selection-section">
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/oolong-baozhong.jpg">
+                            <p class="item">Baozhong</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/oolong-dan-chong.jpg">
+                            <p class="item">Dan Chong</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/oolong-milk.jpg">
+                            <p class="item">Oolong Milk</p>
+                        </div>
+                    </div>
+                    <div class="product-selection-section">
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/oolong-pacific-breeze.jpg">
+                            <p class="item">Pacific Breeze</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/oolong-wuyi-shan-red-cape.jpg">
+                            <p class="item">Wuyi Shan Red Cape</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/oolong-wuyi-shan-tikwan-yin.jpg">
+                            <p class="item">Wuyi Shan Tikwan Yin</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section 5 -->
+                <div id="section-five">
+                    <div class="half-circle">
+                        <p class="selected-name serif">herbal</p>
+                        <img src="images/half-circle.svg">
+                    </div>
+                    <div class="product-selection-section">
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/herbal-cranberry-lovers.jpg">
+                            <p class="item">Cranberry Lovers</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/herbal-fruit-fantasia.jpg">
+                            <p class="item">Fruit Fantasia</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/herbal-green-rooibos.jpg">
+                            <p class="item">Green Rooibos</p>
+                        </div>
+                    </div>
+                    <div class="product-selection-section">
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/herbal-starry-night.jpg">
+                            <p class="item">Starry Night</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/herbal-organic-cleopatra-cuppa.jpg">
+                            <p class="item">Organic Cleopatra Cuppa</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/herbal-organic-symphonic-splendor.jpg">
+                            <p class="item">Organic Symphonic Splendor</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section 6 -->
+                <div id="section-six">
+                    <div class="half-circle">
+                        <p class="selected-name serif">puerh</p>
+                        <img src="images/half-circle.svg">
+                    </div>
+                    <div class="product-selection-section">
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/puerh-ginger-citrus.jpg">
+                            <p class="item">Ginger Citrus</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/puerh-green-loose-leaf.jpg">
+                            <p class="item">Green Loose Leaf</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/puerh-green-tuocha.jpg">
+                            <p class="item">Green Tuocha</p>
+                        </div>
+                    </div>
+                    <div class="product-selection-section">
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/puerh-organic-golden.jpg">
+                            <p class="item">Organic Golden</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" data-name="Camel's Breath" src="images/puerh-stone-pressed.jpg">
+                            <p class="item">Camel's Breath</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 product-column-align">
+                            <img class="product-image" src="images/puerh-organic-ginger.jpg">
+                            <p class="item">Organic Ginger</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+    <div class="footer-content"></div>
 
-    <footer>
-        <div class="footer-content">
-            <p class="footer-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-        </div>
-    </footer>
+
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -142,8 +305,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- <script src="js/custom.js"></script> -->
-    <!-- <script src="js/nextbutton.js"></script> -->
+    <script src="js/custom.js"></script>
+    <script src="js/tea-item.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 

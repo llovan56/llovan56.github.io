@@ -1,0 +1,209 @@
+/* TEA SELECTION INTRO SECTION */
+
+
+
+/* Typography */
+
+.tea-type-link {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25em;
+    font-style: italic;
+    letter-spacing: .18em;
+    padding-right: 200px;
+    text-transform: capitalize;
+}
+
+/* tea menu */
+.tea-types {
+    background-color: #fff;
+    background-size: cover;
+    width: 20%;
+    height: auto;
+    padding-top: 5%;
+    /* position: fixed; */
+}
+
+.tea-type-inner-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+
+    height: auto;
+    margin: auto;
+    padding: .75em;
+    padding-left: 2.75em;
+}
+
+
+/* shop section 1 */
+
+.show {
+    display: block;
+}
+
+.shop-intro-section {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* background-color: rgb(92, 28, 28); */
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4em;
+    width: 70%;
+}
+
+.shop-intro {
+    /* display: none; */
+}
+
+.shop-img {
+    /* width: 100%;
+    height: 300px; */
+}
+
+.half-circle {
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 150px;
+}
+
+.selected-name {
+    color: white;
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: .1em;
+    text-align: center;
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    width: 15%;
+}
+
+input[type=radio] {
+    margin-right: 8px;
+}
+
+input[type=text] {
+    width: 30px;
+    height: 30px;
+}
+
+.button {
+    color: white;
+    display: block;
+    height: 40px;
+    margin-top: 3%;
+    width: 100px;
+    background: #ff5912;
+    text-align: center;
+}
+
+.green-serif {
+    /* background-color: red; */
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: .1em;
+    padding-bottom: .5em;
+}
+
+.shop-general-text {
+    /* background-color: blue; */
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.shop-intro-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* background-color: red; */
+    height: auto;
+    padding: 3em;
+    width: 100%;
+}
+
+.shop-intro-inner-item {
+    height: auto;
+    margin: auto;
+    width: 100%;
+}
+
+/* Section 2 */
+
+#section-two {
+    /* background-color: blue; */
+    display: block;
+}
+
+.product-selection-section {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    /* background-color: blue; */
+    padding: 3em;
+}
+
+.product {
+    flex-basis: 30%;
+    
+    margin: .5em;
+}
+
+.product-column-align {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-three {
+    background-color: green;
+    display: none;
+}
+
+/* FEATURED ITEM */
+
+.item-padding {
+    background-color: #eee;
+    padding: .5em;
+    height: 250px;
+}
+
+/* FOOTER */
+
+.footer-content {
+    margin: auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+p.footer-text {
+    font-size: .75em;
+}

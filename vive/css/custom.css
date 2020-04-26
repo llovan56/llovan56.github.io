@@ -51,8 +51,8 @@ img {
 hr {
     border-bottom: rgb(213, 133, 16) solid 1px;
     border-style: thin;
-    /* margin-left: 0; */
-    
+    padding: 0;
+    margin: 0;
 }
 
 hr.left {
@@ -66,7 +66,7 @@ hr.right {
 }
 
 footer {
-    background-color: #e5e5e5;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -80,7 +80,7 @@ footer {
 
     background-color: rgb(255, 255, 255);
     border-bottom: rgb(213, 133, 16) solid 1px;
-    height: 7.75em;
+    height: 15%;
     padding: 2em;
     /* position: absolute; */
     top: 0;
@@ -127,17 +127,29 @@ footer {
 
     background-color: rgb(255, 255, 255);
     background-size: cover;
-    border-bottom: rgb(213, 133, 16) solid 1px;
-    height: auto;
+    /* border-bottom: rgb(213, 133, 16) solid 1px; */
+    height: 85%;
     width: 100%;
 }
+
+.placeholder {
+    width: 100%;
+    min-height: 460px;
+    background-color: #556E5B;
+  }
+
+.parallax-window {
+    min-height: 460px;
+    background: transparent;
+    position: relative;
+  }
 
 #main.hidden {
     display: none;
 }
 
 .main-image {
-    background-image: url(../images/grey-box.jpg);
+    background-image: url(../images/tea-cup.jpg);
     background-size: cover;
     /* display: none; */
     width: 65%;
@@ -152,6 +164,7 @@ footer {
 
     background-color: rgb(255, 255, 255);
     border-bottom: rgb(213, 133, 16) solid 1px;
+    border-top: rgb(213, 133, 16) solid 1px;
     /* display: inline; */
     /* max-width: 1200px; */
     margin: auto;
@@ -165,6 +178,12 @@ footer {
 
     background-color: rgb(255, 255, 255);
     border-bottom: rgb(213, 133, 16) solid 1px;
+}
+
+.col-lg-12,
+.col-lg-6 {
+    padding: 0;
+    margin: 0;
 }
 
 .item {
@@ -199,13 +218,27 @@ footer {
 .event {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     -webkit-flex-flow: row wrap;
 
-    border: rgb(213, 133, 16) solid 1px;
+    border-top: rgb(213, 133, 16) solid 1px;
     height: 145px;
     max-width: 100%;
     margin: auto;
+    padding: 0;
+}
+
+.event-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-flex-flow: row wrap;
+
+    border-top: rgb(213, 133, 16) solid 1px;
+    height: 145px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0;
 }
 
 .event-date {
@@ -213,7 +246,8 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    margin: auto;
 
     width: 20%;
 }
@@ -232,7 +266,13 @@ footer {
 }
 
 .event-img {
-    background-image: url(../images/grey-box.jpg);
+    background-image: url(../images/menu.jpg);
+    background-size: cover;
+    width: 40%;
+}
+
+.event-img2 {
+    background-image: url(../images/snacks.jpg);
     background-size: cover;
     width: 40%;
 }
@@ -265,4 +305,55 @@ footer {
 
 p.footer-text {
     font-size: .75em;
+}
+
+@media (max-width: 970px){
+    .main-image {
+        display: none;
+        width: 100%;
+    }
+
+    .intro-section {
+        width: 100%;
+    }
+}
+
+@media(max-width:1170px){
+    
+}
+
+@media(max-width:768px){
+    .main-info,
+    .main-info2,
+    .story {
+        display: block;
+        left: 0;
+        margin: auto;
+        right: 0;
+    }
+
+    .item,
+    .inner-item {
+        width: 100%;
+        left: 0;
+        margin: auto;
+        right: 0;
+    }
+
+    .event-img,
+    .event-img2 {
+        display: none;
+    }
+
+    .date-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .event-date {
+        /* background-color: red; */
+        flex-direction: row;
+        width: 40%;
+    }
 }

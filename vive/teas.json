@@ -1,0 +1,363 @@
+[
+    {
+        "id": 1,
+        "type": "green",
+        "name": "Ancient Happiness",
+        "priceA": "2 oz $11.50",
+        "priceB": "4 oz $23.00",
+        "priceC": "8 oz $46.00",
+        "description": "Sometimes simple is best… Our blend of Japanese Sencha Green Tea with a medley of Sunflower, Rose and Cornflower petals will delight your senses and soothe your spirit. This versatile tea is as good iced as it is hot. The path to Ancient Happiness involves developing a desire for that which you already possess. The pleasure that you will receive from this tea will serve as your guide on this path.",
+        "imgUrl": "../images/green-ancient-happiness.jpg"
+    },
+    {
+        "id": 2,
+        "type": "green",
+        "name": "Cherry Blossom",
+        "priceA": "2 oz $11.50",
+        "priceB": "4 oz $23.00",
+        "priceC": "8 oz $46.00",
+        "description": "Originally developed as a tribute to the Japanese Cherry Blossom Festival, this Sencha Green Tea base has been blended with dried cherries to create a truly Zen experience.",
+        "imgUrl": "images/green-cherry-blossom.jpg"
+    },
+    {
+        "id": 3,
+        "type": "green",
+        "name": "Cloud Nine",
+        "priceA": "2 oz $7.00",
+        "priceB": "4 oz $14.00",
+        "priceC": "8 oz $28.00",
+        "description": "You'll think you found paradise once you've tasted this Green tea blended with Strawberry, Rhubarb, and Raspberry. It's fresh, fruity taste will overtake you and whisk you away to a better place.",
+        "imgUrl": "images/green-cloud-nine.jpg"
+    },
+    {
+        "id": 4,
+        "type": "green",
+        "name": "Genmai Matcha",
+        "priceA": "2 oz $5.00",
+        "priceB": "4 oz $10.00",
+        "priceC": "8 oz $20.00",
+        "description": "Pure Genmaicha blends toasted rice with Japanese Green tea. Our version takes this classic rice tea and adds the richness of true powdered matcha for an unequalled taste sensation.",
+        "imgUrl": "images/green-genmaimatcha.jpg"
+    },
+    {
+        "id": 5,
+        "type": "green",
+        "name": "Ginger Tangerine Sencha",
+        "priceA": "2 oz $7.00",
+        "priceB": "4 oz $14.00",
+        "priceC": "8 oz $28.00",
+        "description": "You'll think you found paradise once you've tasted this Green tea blended with Strawberry, Rhubarb, and Raspberry. It's fresh, fruity taste will overtake you and whisk you away to a better place.",
+        "imgUrl": "images/green-ginger-tangerine-sencha.jpg"
+    },
+    {
+        "id": 6,
+        "type": "green",
+        "name": "Kaiseki Hojicha",
+        "priceA": "2 oz $5.00",
+        "priceB": "4 oz $10.00",
+        "priceC": "8 oz $20.00",
+        "description": "An excellent Japanese Green tea for accompanying a meal. Hojicha is a slightly roasted green tea that has a soft, deep and toasty flavor that makes it stand out from other Japanese Greens. This particular Hojicha has an almost chewy texture, and a soft, well-rounded flavor.",
+        "imgUrl": "images/green-kaiseki-hojicha.jpg"
+    },
+    {
+        "id": 7,
+        "type": "black",
+        "name": "Erin Go Bragh",
+        "priceA": "2 oz $12.50",
+        "priceB": "4 oz $25.00",
+        "priceC": "8 oz $50.00",
+        "description": "A tribute to the Irish! This black tea is a blend of the hearty Assams and refined Darjeelings grown in Northern India. O Danny boy, the pipes, the pipes are callin'...",
+        "imgUrl": "../images/black-erin-go-bragh.jpg"
+    },
+    {
+        "id": 8,
+        "type": "black",
+        "name": "Purple Passion",
+        "priceA": "2 oz $10.00",
+        "priceB": "4 oz $20.00",
+        "priceC": "8 oz $40.00",
+        "description": "A basic black tea made irresistible by the addition of passion fruit flavoring. Linger over your cup as the floral scents delight your senses. Sorry, our version contains no Everclear!",
+        "imgUrl": "images/black-purple-passion.jpg"
+    },
+    {
+        "id": 9,
+        "type": "black",
+        "name": "Red Fruit Melange",
+        "priceA": "2 oz $10.00",
+        "priceB": "4 oz $20.00",
+        "priceC": "8 oz $40.00",
+        "description": "A bold mixture of raspberry, strawberry and cherry has been blended with a fine black tea to form an unforgettable combination. While similar to our Garden Grove offering, this blend contains no vanilla and is more 'fruit forward' in both taste and nose.",
+        "imgUrl": "images/black-red-fruit-melange.jpg"
+    },
+    {
+        "id": 10,
+        "type": "black",
+        "name": "Red Plum Tea",
+        "priceA": "2 oz $9.50",
+        "priceB": "4 oz $19.00",
+        "priceC": "8 oz $38.00",
+        "description": "Although a Black Tea, our Red Plum is grown near the same famous Dragon's Well in Zhejiang Province from which our Lung Ching originates. This tea is processed using a unique method that ends-up producing a rich, malty flavor with a smoky aroma. We find Red Plum Tea to be a good accompaniment to rich foods and sweets.",
+        "imgUrl": "images/black-red-plum-tea.jpg"
+    },
+    {
+        "id": 11,
+        "type": "black",
+        "name": "Constant Companion",
+        "priceA": "2 oz $6.00",
+        "priceB": "4 oz $12.00",
+        "priceC": "8 oz $24.00",
+        "description": "One of our earliest recollections of 'good' tea was a supermarket variety of a Black tea combined with 'the rind of oranges and sweet spice.' We've taken that recollection and 'kicked it up a notch' by offering this premium loose leaf tea that's even better than the original. Although we typically advocate drinking our teas without accompanying condiments, a touch of sugar truly helps to awaken the orange flavors in this popular blend. Try it and see if you don't agree.",
+        "imgUrl": "images/black-constant-companion.jpg"
+    },
+    {
+        "id": 12,
+        "type": "black",
+        "name": "Masala Chai",
+        "priceA": "2 oz $5.00",
+        "priceB": "4 oz $10.00",
+        "priceC": "8 oz $20.00",
+        "description": "This blend of Black Indian Teas and rich spices is a traditional Indian favorite when served with milk and sugar. This same fashion is fast becoming a craze here in the U.S. By brewing this blend as a concentrate and mixing with milk and sugar to taste, you can make the very highest quality and traditional Chai right in your own home.",
+        "imgUrl": "images/black-masala-chai.jpg"
+    },
+    {
+        "id": 13,
+        "type": "white",
+        "name": "Bud Jasmine",
+        "priceA": "2 oz $12.50",
+        "priceB": "4 oz $25.00",
+        "priceC": "8 oz $50.00",
+        "description": "This hand-tied presentation tea from Fujian Province, China is crafted from select white tea leaves that have been triple-scented with the aroma of fresh-picked jasmine blossoms. Its showy nature is further enhanced by the addition of a chrysanthemum blossom that has been carefully enveloped in the tea allowing it to 'bloom' while the tea steeps. A perfect centerpiece for a special occasion.",
+        "imgUrl": "images/white-bud-jasmine.jpg"
+    },
+    {
+        "id": 14,
+        "type": "white",
+        "name": "Champagne Raspberry",
+        "priceA": "2 oz $12.00",
+        "priceB": "4 oz $24.00",
+        "priceC": "8 oz $48.00",
+        "description": "We've added the natural extracts of the wonderful combined flavor of Champagne and fresh raspberries to a high quality Bai Mudan White Tea from Fujian province, China. The resulting tea is light and refreshing, whether prepared hot or poured over ice.",
+        "imgUrl": "images/white-champagne-raspberry.jpg"
+    },
+    {
+        "id": 15,
+        "type": "white",
+        "name": "Goji Berry",
+        "priceA": "2 oz $12.00",
+        "priceB": "4 oz $24.00",
+        "priceC": "8 oz $48.00",
+        "description": "A White Peony tea base blended with Goji Berry, Lemon Myrtle, and flower petals. Goji Berries have a pleasantly tart taste, and are reputed to contain 10 times the antioxidants found in their fellow 'superfood' - Blueberries...",
+        "imgUrl": "images/white-goji-berry.jpg"
+    },
+    {
+        "id": 16,
+        "type": "white",
+        "name": "Peony",
+        "priceA": "2 oz $10.50",
+        "priceB": "4 oz $21.00",
+        "priceC": "8 oz $42.00",
+        "description": "This White tea comes from Fujian Province, China, and consists of both buds and leaf. White Peony produces a light flowery aroma, sweet taste, and a pleasing, soft color. Enjoy!",
+        "imgUrl": "images/white-peony.jpg"
+    },
+    {
+        "id": 17,
+        "type": "white",
+        "name": "Silver Needle",
+        "priceA": "2 oz $11.50",
+        "priceB": "4 oz $23.00",
+        "priceC": "8 oz $46.00",
+        "description": "The finest of the White teas. Our Silver Needle is comprised only of Spring-picked buds from China's Yunnan Province, and produces a delicate flavor with a long and balanced sweetness. This White tea is naturally low in caffeine and high in antioxidants. An excellent evening tea.",
+        "imgUrl": "images/white-silver-needle.jpg"
+    },
+    {
+        "id": 18,
+        "type": "white",
+        "name": "La Pina Colada",
+        "priceA": "2 oz $12.00",
+        "priceB": "4 oz $24.00",
+        "priceC": "8 oz $48.00",
+        "description": "A White Tea tribute to everyone's favorite Caribbean umbrella drink! A subtle Bai Mudan white tea from China's Fujian province, artfully blended with bits of dried pineapple and shredded coconut to put you in mind of your most relaxing beachside vacations.",
+        "imgUrl": "images/white-la-pina-colada.jpg"
+    },
+    {
+        "id": 19,
+        "type": "oolong",
+        "name": "Baozhong",
+        "priceA": "2 oz $13.50",
+        "priceB": "4 oz $27.00",
+        "priceC": "8 oz $54.00",
+        "description": "Also known as Pouchong, this least oxidized of the Oolong teas is very near to the Green tea category. It is produced in Ping Ling county in Northern Taiwan (Wenshan district) where Oolong production is an art form. Its slightly vegetal taste is fresh and light, making it a perfect afternoon tea to be taken alone during a moment of respite.",
+        "imgUrl": "images/oolong-baozhong.jpg"
+    },
+    {
+        "id": 20,
+        "type": "oolong",
+        "name": "Dan Chong",
+        "priceA": "2 oz $15.50",
+        "priceB": "4 oz $31.00",
+        "priceC": "8 oz $62.00",
+        "description": "A rare and largely unknown style of Oolong from the orchard fields of Southern China's Guangdong province, the Dan Chong leaves are carefully hand-selected from individual, wild, ancient tea trees, then hand-crafted and high-fired before being released to grace the pots of discriminating Oolong enthusiasts. Best enjoyed Gong Fu style. May be steeped multiple times.",
+        "imgUrl": "images/oolong-dan-chong.jpg"
+    },
+    {
+        "id": 21,
+        "type": "oolong",
+        "name": "Oolong Milk",
+        "priceA": "2 oz $10.50",
+        "priceB": "4 oz $21.00",
+        "priceC": "8 oz $42.00",
+        "description": "This semi-oxidized tea varietal has a very distinctive 'buttery' characteristic to its liquor that is the result of a unique combination of harvest-timing coupled with processing technique. The leaves are selected from tea plants growing in the mountains of Fujian province, China at elevations between 1600 and 4000 feet above sea-level. The plucking must then occur only on a morning following a precipitous drop in temperature in comparison to the day before. The hand-picked leaves are then removed to the tea factory where they are carefully oxidized in climate controlled rooms, steamed and rolled, then dried and packed for the enjoyment of the lucky few tea enthusiasts that have access to this rare treat.",
+        "imgUrl": "images/oolong-milk.jpg"
+    },
+    {
+        "id": 22,
+        "type": "oolong",
+        "name": "Pacific Breeze",
+        "priceA": "2 oz $11.00",
+        "priceB": "4 oz $22.00",
+        "priceC": "8 oz $44.00",
+        "description": "We can only describe this extraordinary blend as 'eye-popping'! This tea is an exotic melange of only the finest organic ingredients - Oolong tea leaves, wild roses, jasmine blossoms, lemon myrtle and natural citrus oils that come together to produce a beautiful, dry, and flavorful brew that will linger on the palate. This tea is an experience that must be tried.",
+        "imgUrl": "images/oolong-pacific-breeze.jpg"
+    },
+    {
+        "id": 23,
+        "type": "oolong",
+        "name": "Wuyi Shan Red Cape",
+        "priceA": "2 oz $9.50",
+        "priceB": "4 oz $19.00",
+        "priceC": "8 oz $38.00",
+        "description": "Red Cape Oolong tea was prepared by and for the Chinese Imperial Family of the Yuan Dynasty (13th and 14th centuries). This is a wonderful, highly oxidized Oolong grown on the slopes of the famous Wuyi Mountain in Fujian Province - home to some of the world's most prized teas. The leaves produce a liquor that is smooth, rich and woody in character. Treat yourself to this royal tribute tea.",
+        "imgUrl": "images/oolong-wuyi-shan-red-cape.jpg"
+    },
+    {
+        "id": 24,
+        "type": "oolong",
+        "name": "Wuyi Shan Tikwan Yin",
+        "priceA": "2 oz $8.00",
+        "priceB": "4 oz $16.00",
+        "priceC": "8 oz $32.00",
+        "description": "Our finest Ti Kwan Yin comes from Wuyi Mountain - the legendary home of Kwan Yin (the Buddhist Goddess of Mercy). It is a moderately-oxidized Oolong (Wulong), and yields a heavy aroma and fruity fragrance. It can be steeped many times without becoming bitter. The classic choice for a Gong Fu Ceremony.",
+        "imgUrl": "images/oolong-wuyi-shan-tikwan-yin.jpg"
+    },
+    {
+        "id": 25,
+        "type": "herbal",
+        "name": "Cranberry Lovers",
+        "priceA": "2 oz $5.50",
+        "priceB": "4 oz $11.00",
+        "priceC": "8 oz $22.00",
+        "description": "This lover's blend of honeybush and rooibos contains the nutrient powerhouse fruit from the mountain cranberry shrub. These low bush cranberries are packed with high levels of antioxidants and health promoting properties. Blended with rose buds and small sugar hearts, this tea will charm your sweetheart and will pose the question: Be my valentine?",
+        "imgUrl": "images/herbal-cranberry-lovers.jpg"
+    },
+    {
+        "id": 26,
+        "type": "herbal",
+        "name": "Fruit Fantasia",
+        "priceA": "2 oz $8.00",
+        "priceB": "4 oz $16.00",
+        "priceC": "8 oz $32.00",
+        "description": "A superb fruit infusion that has a tart and fruity flavor profile with notes of blueberry and bing cherries. This blend also contains schisandra berries. Schisandra is an adaptogen - an herb that has an energizing effect on human cells to help cells resist stress - physical and mental. It is also reputed to be a libido tonic for both men and women.",
+        "imgUrl": "images/herbal-fruit-fantasia.jpg"
+    },
+    {
+        "id": 27,
+        "type": "herbal",
+        "name": "Green Rooibos",
+        "priceA": "2 oz $4.50",
+        "priceB": "4 oz $9.00",
+        "priceC": "8 oz $18.00",
+        "description": "Less oxidized than our popular South African Rooibos, our Green Rooibos has a lighter body with a distinctive earthy flavor and a slightly sweet finish. It is known to have a soothing effect on the central nervous system which helps reduce tension and stress on the body. It is also known to aid in the relief of heartburn, insomnia and hypertension. A great evening tea!",
+        "imgUrl": "images/herbal-green-rooibos.jpg"
+    },
+    {
+        "id": 28,
+        "type": "herbal",
+        "name": "Starry Night",
+        "priceA": "2 oz $11.00",
+        "priceB": "4 oz $22.00",
+        "priceC": "8 oz $44.00",
+        "description": "We can only describe this extraordinary blend as 'eye-popping'! This tea is an exotic melange of only the finest organic ingredients - Oolong tea leaves, wild roses, jasmine blossoms, lemon myrtle and natural citrus oils that come together to produce a beautiful, dry, and flavorful brew that will linger on the palate. This tea is an experience that must be tried.",
+        "imgUrl": "images/herbal-starry-night.jpg"
+    },
+    {
+        "id": 29,
+        "type": "herbal",
+        "name": "Organic Cleopatra Cuppa",
+        "priceA": "2 oz $6.00",
+        "priceB": "4 oz $12.00",
+        "priceC": "8 oz $24.00",
+        "description": "Only the best Chamomile available would have pleased the Queen of the Nile. We think that this selection would have found us in her good graces. Try some and let us know what you think.",
+        "imgUrl": "images/herbal-organic-cleopatra-cuppa.jpg"
+    },
+    {
+        "id": 30,
+        "type": "herbal",
+        "name": "Organic Symphonic Splendor",
+        "priceA": "2 oz $7.50",
+        "priceB": "4 oz $15.00",
+        "priceC": "8 oz $30.00",
+        "description": "This herbal infusion is a wonderful marriage of organic lemongrass, peppermint, ginger, licorice, cardamom, and pepper. The resulting brew is a calming treat with a peppery bite at the finish.",
+        "imgUrl": "images/herbal-organic-symphonic-splendor.jpg"
+    },
+
+    {
+        "id": 31,
+        "type": "puerh",
+        "name": "Ginger Citrus",
+        "priceA": "2 oz $8.50",
+        "priceB": "4 oz $17.00",
+        "priceC": "8 oz $34.00",
+        "description": "This blend begins with a black, or 'cooked' Puerh tea base. To this rich beginnings, we've asked our blenders to add pieces of dried ginger as well as lemon verbena and lemongrass. The result is a brew that is wonderfully contrasting - both rich and deep, while also light and refreshing. The perfect after-dinner digestive.",
+        "imgUrl": "images/puerh-ginger-citrus.jpg"
+    },
+    {
+        "id": 32,
+        "type": "puerh",
+        "name": "Green Loose Leaf",
+        "priceA": "2 oz $8.50",
+        "priceB": "4 oz $17.00",
+        "priceC": "8 oz $34.00",
+        "description": "A rare and unusual Green Loose Leaf Puerh tea from Yunnan, China. After plucking, the leaves receive minimal processing - a simple withering and sun-drying. The aroma is mellow and earthy and the flavor is rich, full and delicately smoky.",
+        "imgUrl": "images/puerh-green-loose-leaf.jpg"
+    },
+    {
+        "id": 33,
+        "type": "puerh",
+        "name": "Green Tuocha",
+        "priceA": "2 oz $5.50",
+        "priceB": "4 oz $11.00",
+        "priceC": "8 oz $22.00",
+        "description": "Made from deep green leaves from the Yunnan Province in southern China, this bowl shaped puerh tea produces a slightly smoky and vegetal sweet brew. Produced in the summer, this organic tuocha is sun-dried, steamed and then molded into small bowls. Will provide multiple infusions.",
+        "imgUrl": "images/puerh-green-tuocha.jpg"
+    },
+    {
+        "id": 34,
+        "type": "puerh",
+        "name": "Organic Golden",
+        "priceA": "2 oz $7.50",
+        "priceB": "4 oz $15.00",
+        "priceC": "8 oz $30.00",
+        "description": "Throughout its long history, Puerh has been reserved by the Chinese imperial court as a 'tea of tribute'. Golden refers to the high percentage of prized tea leaf buds found in this extraordinary tea. Made from small leaves this tea is sweet, smooth and lightly aged.",
+        "imgUrl": "images/puerh-organic-golden.jpg"
+    },
+    {
+        "id": 35,
+        "type": "puerh",
+        "name": "Camels Breath",
+        "priceA": "2 oz $6.00",
+        "priceB": "4 oz $12.00",
+        "priceC": "8 oz $24.00",
+        "description": "From China's Yunnan province comes this great aged Puerh tea featuring a rich earthy taste with briny overtones. It is molded into the shape of a bird's nest and is individually paper-wrapped. There are many health benefits attributed to Puerh. Research has shown that it contributes to reducing fat and lowering cholesterol, helps with indigestion and has shown promise in treating obesity.",
+        "imgUrl": "images/puerh-stone-pressed.jpg"
+    },
+    {
+        "id": 36,
+        "type": "puerh",
+        "name": "Organic Ginger",
+        "priceA": "2 oz $8.50",
+        "priceB": "4 oz $17.00",
+        "priceC": "8 oz $34.00",
+        "description": "This blend begins with a black, or 'cooked' Puerh tea base. To this rich beginnings, we've asked our blenders to add pieces of dried ginger as well as lemon verbena and lemongrass. The result is a brew that is wonderfully contrasting - both rich and deep, while also light and refreshing. The perfect after-dinner digestive.",
+        "imgUrl": "images/puerh-organic-ginger.jpg"
+    }
+]
