@@ -7,7 +7,7 @@
         "priceB": "4 oz $23.00",
         "priceC": "8 oz $46.00",
         "description": "Sometimes simple is best… Our blend of Japanese Sencha Green Tea with a medley of Sunflower, Rose and Cornflower petals will delight your senses and soothe your spirit. This versatile tea is as good iced as it is hot. The path to Ancient Happiness involves developing a desire for that which you already possess. The pleasure that you will receive from this tea will serve as your guide on this path.",
-        "imgUrl": "../images/green-ancient-happiness.jpg"
+        "imgUrl": "images/green-ancient-happiness.jpg"
     },
     {
         "id": 2,
@@ -67,7 +67,7 @@
         "priceB": "4 oz $25.00",
         "priceC": "8 oz $50.00",
         "description": "A tribute to the Irish! This black tea is a blend of the hearty Assams and refined Darjeelings grown in Northern India. O Danny boy, the pipes, the pipes are callin'...",
-        "imgUrl": "../images/black-erin-go-bragh.jpg"
+        "imgUrl": "images/black-erin-go-bragh.jpg"
     },
     {
         "id": 8,
