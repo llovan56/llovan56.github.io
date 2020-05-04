@@ -22,6 +22,17 @@
 
 <body>
     <div>
+        <div class="shopping-cart-display">
+            <p id="close-cart">close</p>
+            <div class="modal-body">
+                <table class="show-cart">
+                  
+                </table>
+                <div>Total price: $<span id="total-cart"></span></div>
+              </div>
+            <!-- <p class="cart-number">Cart (2)</p> -->
+        </div>
+        <div id="cart-close-background"></div>
         <div id="close-background"></div>
         <!-- shopping item when clicked -->
         <div id="selected-item">
@@ -29,27 +40,16 @@
                 <p id="close-button">Close</p>
                 <div class="col-lg-12 product-box">
                     <div class="col-lg-6">
-                        <img id="ancient-happiness" class="product-image" src="images/spacer.png">
+                        <img id="ancient-happiness" class="product-image2" src="images/spacer.png">
                     </div>
                     <div class="col-lg-6 product-description">
-                        <h1 id="ancient-happiness-name" class="serif product-name"></h1>
+                        <h1 id="product-name" data-name="Ancient Happiness" class="serif product-name">Product Name</h1>
                         <p>Sometimes simple is best… Our blend of Japanese Sencha Green Tea with a medley of Sunflower, Rose and Cornflower petals will delight your senses and soothe your spirit. This versatile tea is as good iced as it is hot. The path to Ancient Happiness involves developing a desire for that which you already possess. The pleasure that you will receive from this tea will serve as your guide on this path.</p>
-                        <label class="container"><p>2 oz. $11.50</p>
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
                         
-                        <label class="container"><p>4 oz. $23.00</p>
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                        
-                        <label class="container"><p>8 oz. $46.00</p>
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                        
-                        <button type="button" class="btn btn-warning">Buy Now</button>
+                        <input type="number" id="quantity" name="quantity" data-name="name" value="1" min="1" max="5">
+                        <label for="quantity"><p>2 oz. <span data-name="Ancient Happiness" id="price">11.50</span></p></label>
+                        <br/>
+                        <input id="submit-btn" class="btn btn-warning" type="submit" value="Submit">
                     </div>
                 </div>
             </div> -->
@@ -57,6 +57,7 @@
         <div id="header">
             <a href="index.html"><img class="logo" src="images/logo.png"></a>
             <div class="links">
+                <a id="cart-button">cart</a>
                 <a href="shop.html">shop</a>
                 <a href="story.html">info</a>
             </div>
@@ -83,7 +84,7 @@
                         <p class="selected-name serif">green</p>
                         <img src="images/half-circle.svg">
                     </div>
-                    <div class="col-lg-12 product-selection-section">
+                    <div class="product-selection-section">
                         <div class="col-lg-4 col-sm-12 product-column-align">
                             <img class="product-image" src="images/green-ancient-happiness.jpg">
                             <p class="item">Ancient Happiness</p>
@@ -97,7 +98,7 @@
                             <p class="item">Cloud Nine</p>
                         </div>
                     </div>
-                    <div class="col-lg-12 product-selection-section">
+                    <div class="product-selection-section">
                         <div class="col-lg-4 col-sm-12 product-column-align">
                             <img class="product-image" src="images/green-genmaimatcha.jpg">
                             <p class="item">Genmai Matcha</p>

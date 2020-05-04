@@ -21,9 +21,21 @@
 
 <body>
     <div>
+        <div class="shopping-cart-display">
+            <p id="close-cart">close</p>
+            <div class="modal-body">
+                <table class="show-cart">
+                  
+                </table>
+                <div>Total price: $<span id="total-cart"></span></div>
+              </div>
+            <!-- <p class="cart-number">Cart (2)</p> -->
+        </div>
+        <div id="cart-close-background"></div>
         <div id="header">
             <a href="index.html"><img class="logo" src="images/logo.png"></a>
             <div class="links">
+                <a id="cart-button">cart</a>
                 <a href="shop.html">shop</a>
                 <a href="story.html">info</a>
             </div>
@@ -68,6 +80,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/tea-item.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
