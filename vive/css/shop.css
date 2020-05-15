@@ -383,6 +383,31 @@ p.footer-text {
     z-index: 20;
 }
 
+#close-cart {
+    left: auto;
+    position: absolute;
+    right: 10%;
+    z-index: 10;
+}
+
+.carted-item-image {
+    /* width: 15%; */
+}
+
+#carted-item {
+    /* background-color: red; */
+    padding-bottom: 40px;
+    width: 80%;
+}
+
+#total-price-cart {
+    display: none;
+}
+
+#cart-empty {
+    display: block;
+}
+
 #close-background {
     background: rgba(0,0,0,.5);
     display: none;
