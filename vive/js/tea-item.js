@@ -117,18 +117,19 @@ var shoppingCart = (function() {
     
     // Save cart
     function saveCart() {
-      sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
+      localStorage.setItem('shoppingCart', JSON.stringify(cart));
       console.log(cart);
       displayCart()
     }
     
       // Load cart
-    // function loadCart() {
-    //   cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
-    // }
-    // if (sessionStorage.getItem("shoppingCart") != null) {
-    //   loadCart();
-    // }
+    function loadCart() {
+      cart = JSON.parse(localStorage.getItem('shoppingCart'));
+      console.log(cart);
+    }
+    if (localStorage.getItem("shoppingCart") != null) {
+      loadCart();
+    }
     
   
     // =============================
