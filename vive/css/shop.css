@@ -400,7 +400,16 @@ p.footer-text {
     width: 80%;
 }
 
+#carted-total {
+    padding-bottom: 15px;
+    width: 80%;
+}
+
 #total-price-cart {
+    display: none;
+}
+
+#checkout-button {
     display: none;
 }
 

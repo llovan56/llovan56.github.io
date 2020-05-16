@@ -42,8 +42,18 @@
                     </div> -->
 
                 </div>
-                <p id="cart-empty">Cart is empty, fill it up!</p>
-                <div id="total-price-cart" class="col-lg-12"><p>Total price: $</p><p id="total-cart"></p></div>
+
+                <div id="carted-total" class="col-lg-12">
+                    <!-- not visible when cart has items -->
+                    <p id="cart-empty">Cart is empty, fill it up!</p>
+
+                    <!-- visible when cart has items -->
+                    <p><span id="total-price-cart" class="col-lg-12">Total price: <span><span id="total-cart"></span></p></div>
+                    <div id="carted-total" class="col-lg-12">
+                        <input id="checkout-button" class="btn btn-warning" type="submit" value="checkout">
+                    </div>
+                </div>
+                
               </div>
             <!-- <p class="cart-number">Cart (2)</p> -->
         </div>

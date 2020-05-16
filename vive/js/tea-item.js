@@ -18,6 +18,14 @@ function addDataSet(data) {
 // console.log(document.querySelector("input").value * 11.50);
 // console.log(document.querySelector("#submit-btn").value)
 
+//converts to USD currency format
+
+const formatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  minimumFractionDigits: 2
+});
+
 function displayItem(data, targetElement) {
     var output = "";
     // console.log(data);
@@ -36,7 +44,7 @@ function displayItem(data, targetElement) {
         +"<h1 id='product-name' data-name=" + data[i].name + "class='serif product-name'>" + data[i].name + "</h1>"
         +"<p>" + data[i].description + "</p>"
         +"<input type='number' id='quantity' name='quantity'" +"data-name=" + data[i].name + " value='1' min='1' max='5'>"
-        + "<label for='quantity'><p>2 oz. <span data-name=" + data[i].name + " id='price'>" + data[i].priceA + "</span></p></label>"
+        + "<label for='quantity'><p>2 oz. <span data-name=" + data[i].name + " id='price'>" + formatter.format(data[i].priceA) + "</span></p></label>"
         + "<br/>"
         + "<input id='submit-btn' class='btn btn-warning' type='submit' value='Submit'>"
         +"</div></div></div></div>"
@@ -280,7 +288,6 @@ $('.clear-cart').click(function() {
   displayCart();
 });
 
-
 function displayCart() {
   var cartArray = shoppingCart.listCart();
   var output = "";
@@ -291,8 +298,8 @@ function displayCart() {
       + '<img class="carted-item-image" src="' + cartArray[i].itemImage + '"/>'
       + '</div>'
       + '<div class="col-lg-9">'
-      + "<p>" + cartArray[i].name + "</p>" 
-      + "<p>(" + cartArray[i].price + ")</p>"
+      + "<p>" + cartArray[i].name
+      + " (" + formatter.format(cartArray[i].price) + "/2 oz)</p>"
       + "<div class='input-group'>"
       + "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>"
       + "</div>"
@@ -303,7 +310,13 @@ function displayCart() {
   }
   $('.show-cart').html(output);
   console.log(cartArray)
-  var totalCart = $('#total-cart').html(shoppingCart.totalCart());
+
+  // gathers total price in cart
+  var totalPrice = shoppingCart.totalCart();
+  var totalPriceConvert = formatter.format(totalPrice);
+  console.log(totalPriceConvert);
+  console.log(totalPrice);
+  var totalCart = $('#total-cart').html(totalPriceConvert);
   console.log(totalCart);
   $('.total-count').html(shoppingCart.totalCount());
 }
@@ -319,6 +332,7 @@ $('.show-cart').on("click", ".delete-item", function(name) {
   if (!cartedItem) {
     document.getElementById('total-price-cart').style.display = 'none';
     document.getElementById('cart-empty').style.display = 'block';
+    document.getElementById('checkout-button').style.display = 'none';
   }
   // document.getElementById('total-price-cart').style.display = 'none';
 });
@@ -411,6 +425,7 @@ function showSubmitButton(data,targetElement) {
     for(var i=0; i< data.length; i++) {
       if (data[i].name === targetElement) {
       document.getElementById('total-price-cart').style.display = 'block';
+      document.getElementById('checkout-button').style.display = 'block';
       document.getElementById('cart-empty').style.display = 'none';
       event.preventDefault();
       var name = data[i].name;
